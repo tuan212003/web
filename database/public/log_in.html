@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log_in</title>
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+    <link rel="stylesheet" href="log_in.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container register-container">
+            <form  method="POST" id="registerForm" action="/register">
+                <h1>Create Account</h1>
+                <input type="text" name="name" placeholder="Họ và tên">
+                <input type="text" name="school" placeholder="Trường">
+                <input type="text" name="class"placeholder="Lớp">
+                <input type="email" id="email" name="email" placeholder="Tên tài khoản">
+                <input type="password" id="password" name="password" placeholder="Mật khẩu">
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+
+        <div class="form-container login-container">
+            <form  method="POST" id="loginForm" action="/login">
+                <h1>Đăng nhập</h1>
+                <input type="email" id="email" name="email" placeholder="Tên tài khoản">
+                <input type="password" id="password" name="password" placeholder="Mật khẩu">
+                <button type="submit" >Đăng nhập</button>
+                <!-- <span>or use your acccount</span> -->
+                <!-- <div class="social-container">
+            
+                </div> -->
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Hello<br> journy now</h1>
+                    <p>if you can</p>
+                    <button class="ghost" id="login">Đăng nhập</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1 class="title">Start yout <br> journy now</h1>
+                    <p>Tạo tài khoản mới</p>
+                    <button class="ghost" id="register">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="login.js"></script>
+    
+    
+</body>
+</html>
