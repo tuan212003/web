@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game31.css">
+</head>
+<body>
+    <center>
+        <div class="top">
+             <p class="thu" id="thu"></p>
+        </div>
+        <div class="mail">
+            <form class="input" action="">
+                <textarea id="inputText" rows="18" cols="70"></textarea>  
+            </form>
+            <br> <br>
+            <div class="goiy">
+                <p id="goiy"></p>
+                <button class="hoanthanh" onclick="window.location.href='danhsach.html'">Hoành thành</button>
+            </div>
+            <button class="gui" onclick="hienGoiy();showgoiy(7)">Gửi</button>
+        </div>
+    </center>
+    <script>
+        function hienGoiy() {
+            document.querySelector(".goiy").style.display = "flex";
+            document.querySelector(".gui").style.display = "none"; 
+            document.querySelector(".input").style.display = "none"; 
+        }
+    </script>
+    <script src="game31.js"></script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trò chơi</title>
     <link rel="stylesheet" href="dsgame.css">
 </head>
 <body>
@@ -27,28 +27,28 @@
         <div class="tp" style="background-image: url(/anh/game1.jpg);">
             <div class="card" >
                 <div class="card-details">
-                  <p class="text-title">Thử thách thỏ con</p>
+                  <p class="text-title">Phép thuật thỏ con</p>
                 </div>
-                <button class="card-button">Chơi ngay</button>
+                <button class="card-button" onclick="localStorage.setItem('game', '1')">Chơi ngay</button>
               </div>
         </div>
         <div class="tp" style="background-image: url(/anh/game2.jpg);">
             <div class="card" >
                 <div class="card-details">
-                  <p class="text-title">Kho báu rừng xanh</p>
+                  <p class="text-title">Truy tìm kho báu rừng xanh</p>
                 </div>
-                <button class="card-button">Chơi ngay</button>
+                <button class="card-button" onclick="localStorage.setItem('game', '2')">Chơi ngay</button>
               </div>
         </div>
-        <div class="tp">
+        <div class="tp" style="background-image: url(/anh/1.png);">
             <div class="card">
                 <div class="card-details">
-                  <p class="text-title">Card title</p>
+                  <p class="text-title">Thư gửi các nhỏ rừng xanh</p>
                 </div>
-                <button class="card-button">Chơi ngay</button>
+                <button class="card-button" onclick="localStorage.setItem('game', '3')" >Chơi ngay</button>
               </div>
         </div>
     </div>
-    
+    <script src="dsgame.js"></script>
 </body>
 </html>

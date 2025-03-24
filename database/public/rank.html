@@ -8,13 +8,14 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="rank.css">
+    <title>Bảng xếp hạng</title>
   </head>
   <body>
     <div class="top">
       <header class="menu-bar">
           <!-- Phần bên trái -->
           <div class="left-section">
-            <a href="index.html"><img src="/anh/03fec7a3-75fb-40a1-826f-1176a5f50419.jfif" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="./anh/03fec7a3-75fb-40a1-826f-1176a5f50419.jfif" alt="Logo" class="logo"></a>
           </div>
           <!-- Phần giữa -->
           <div class="middle-section">
@@ -30,40 +31,59 @@
         <main>
             <div id="header">
               <h1>Ranking</h1>
+              <img src="https://cdn-icons-png.flaticon.com/512/4012/4012470.png" alt="" width="80px">
             </div>
             <div id="leaderboard">
               <div class="ribbon"></div>
               <table>
                 <tr>
                   <td class="number">1</td>
-                  <td class="name">Lee Taeyong</td>
-                  <td class="points">
+                  <td class="name" id="nametop1">Lee Taeyong</td>
+                  <td class="points" id="scoretop1">
                     258.244 <img class="gold-medal" src="https://github.com/malunaridev/Challenges-iCodeThis/blob/master/4-leaderboard/assets/gold-medal.png?raw=true" alt="gold medal"/>
                   </td>
                 </tr>
                 <tr>
                   <td class="number">2</td>
-                  <td class="name">Mark Lee</td>
-                  <td class="points">258.242</td>
+                  <td class="name" id="nametop2">Mark Lee</td>
+                  <td class="points" id="scoretop2">258.242</td>
                 </tr>
                 <tr>
                   <td class="number">3</td>
-                  <td class="name">Xiao Dejun</td>
-                  <td class="points">258.223</td>
+                  <td class="name" id="nametop3">Xiao Dejun</td>
+                  <td class="points" id="scoretop3">258.223</td>
                 </tr>
                 <tr>
                   <td class="number">4</td>
-                  <td class="name">Qian Kun</td>
-                  <td class="points">258.212</td>
+                  <td class="name" id="nametop4">Qian Kun</td>
+                  <td class="points" id="scoretop4">258.212</td>
                 </tr>
                 <tr>
                   <td class="number">5</td>
-                  <td class="name">Johnny Suh</td>
-                  <td class="points">258.208</td>
+                  <td class="name" id="nametop5">Johnny Suh</td>
+                  <td class="points" id="scoretop5">258.208</td>
                 </tr>
               </table>
             </div>
         </main>
     </div>
+
+    <script>
+      async function fetchTopUsers() {
+          try {
+              const response = await fetch("http://localhost:3000/top-users");
+              const users = await response.json();
+      
+              for (let i = 0; i < 5; i++) {
+                  document.getElementById(`nametop${i + 1}`).textContent = users[i]?.name || "";
+                  document.getElementById(`scoretop${i + 1}`).textContent = users[i]?.score || "";
+              }
+          } catch (error) {
+              console.error("Lỗi khi tải dữ liệu:", error);
+          }
+      }
+      
+      fetchTopUsers();
+      </script>
   </body>
 </html>

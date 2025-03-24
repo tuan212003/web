@@ -36,8 +36,18 @@
    
 
    .text-title {
+    display: flex;
+    justify-items: center;
+    text-align: center;
     font-size: 27px;
     font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.911);
+    color: #2ba59f;
+    border-radius: 20px;
+    border: 2px solid rgb(124, 195, 212);
+    height: 70px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
    }
    
    .card:hover {
@@ -107,13 +117,14 @@ align-items: center;
 
 /* Style chung cho các liên kết trong phần giữa */
 .middle-section a {
-color: #811c1c;
-text-decoration: none;
-font-size: 18px;
-font-weight: 500;
-transition: color 0.3s ease;
-position: relative;
-margin: 0 40px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+    margin: 0px 50px;
+    font-family: "Roboto", sans-serif;
 }
 
 .middle-section a::after {

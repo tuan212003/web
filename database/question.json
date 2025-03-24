@@ -1,226 +1,1297 @@
 [
+  {
+    "game": "1",
+    "level": "1",
+    "questions": [
+      {
+        "questionText": "Sau khi đọc câu chuyện, Em hãy chọn những ý đúng về đóng góp của người lao động:",
+        "answers": [
+          { "text": "Cừu Bố giúp giữ gìn vệ sinh môi trường", "isCorrect": true },
+          { "text": "Cừu Bố chỉ làm việc khi có người nhắc nhở", "isCorrect": false },
+          { "text": "Bác Thỏ trí tuệ thiết kế các công trình xây dựng", "isCorrect": true },
+          { "text": "Cô Mèo chăm sóc sức khỏe cho mọi người", "isCorrect": false },
+          { "text": "Mẹ Thỏ nấu những món ăn ngon", "isCorrect": true },
+          { "text": "Chị Rắn đi giao thư không đóng góp gì cho xã hội", "isCorrect": false },
+          { "text": "Chị Rắn đảm bảo thư từ được giao đúng nơi", "isCorrect": true },
+          { "text": "Thỏ trí tuệ không cần suy nghĩ nhiều trong công việc", "isCorrect": false },
+          { "text": "Cô Mèo chỉ làm việc vì tiền", "isCorrect": true },
+          { "text": "Cừu Bố không đóng góp nhiều bằng Bác Thỏ trí tuệ", "isCorrect": false },
+          { "text": "Người lao động chỉ làm việc vì tiền lương mà không có đóng góp gì cho xã hội", "isCorrect": true },
+          { "text": "Tất cả người lao động đều đóng góp cho cuộc sống tốt đẹp hơn", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Em hãy đánh dấu vào những ý thể hiện vì sao phải biết ơn người lao động:",
+        "answers": [
+          { "text": "Người lao động đóng góp công sức để xây dựng và duy trì cuộc sống tốt đẹp hơn", "isCorrect": true },
+          { "text": "Biết ơn người lao động giúp chúng ta hiểu được giá trị của sức lao động", "isCorrect": false },
+          { "text": "Chỉ cần biết ơn những người lao động làm việc trong lĩnh vực quan trọng", "isCorrect": true },
+          { "text": "Biết ơn người lao động là cách thể hiện sự tôn trọng và yêu thương", "isCorrect": false },
+          { "text": "Người lao động không cần được biết ơn vì họ được trả lương", "isCorrect": true },
+          { "text": "Biết ơn người lao động giúp xã hội trở nên đoàn kết và văn minh hơn", "isCorrect": false },
+          { "text": "Chỉ cần biết ơn người lao động khi họ giúp đỡ mình trực tiếp", "isCorrect": true },
+          { "text": "Biết ơn người lao động giúp chúng ta nhận ra sự vất vả và hy sinh của họ", "isCorrect": false },
+          { "text": "Không cần biết ơn người lao động vì công việc của họ là trách nhiệm", "isCorrect": true },
+          { "text": "Biết ơn người lao động là truyền thống tốt đẹp của dân tộc", "isCorrect": false },
+          { "text": "Biết ơn người lao động giúp chúng ta có thái độ sống tích cực và biết chia sẻ", "isCorrect": true },
+          { "text": "Chỉ cần biết ơn người lao động khi họ làm việc trong điều kiện khó khăn", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Em hãy chọn những ý đúng về cách thể hiện lòng biết ơn người lao động:",
+        "answers": [
+          { "text": "Nói lời cảm ơn khi nhận được sự giúp đỡ", "isCorrect": true },
+          { "text": "Chế nhạo những người làm nghề vất vả", "isCorrect": false },
+          { "text": "Giữ gìn vệ sinh chung để giảm bớt công việc cho người lao công", "isCorrect": true },
+          { "text": "Không cần biết ơn vì người lao động được trả lương", "isCorrect": false },
+          { "text": "Không vứt rác bừa bãi", "isCorrect": true },
+          { "text": "Chỉ biết ơn những người lao động kiếm được nhiều tiền", "isCorrect": false },
+          { "text": "Tôn trọng và lắng nghe chia sẻ của người lao động", "isCorrect": true },
+          { "text": "Không cần biết ơn vì người lao động được trả lương", "isCorrect": false },
+          { "text": "Thể hiện sự đồng cảm với những khó khăn của người lao động", "isCorrect": true },
+          { "text": "Giúp đỡ người lao động khi có thể", "isCorrect": true },
+          { "text": "Nhắc nhở bạn bè cùng biết ơn người lao động", "isCorrect": true },
+          { "text": "Tham gia các hoạt động tri ân người lao động", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "2",
+    "level": "1",
+    "questions": [
+      {
+        "questionText": "Sóc tinh ranh ban đầu đã khóc và nói: \"Con không muốn đi quét rác đâu, quét rác thì có gì hay đâu chứ, con muốn làm nghề khác cơ, quét rác có phải là nghề đâu ạ!\" \\n Em có đồng tình với hành động và lời nói của Sóc tinh ranh không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Anh Cáo gian xảo nhắc nhở bạn Sóc rằng nếu không có Cừu Bố, cả Tổ dân phố sẽ không sạch sẽ. \\n Em có đồng tình với lời nhắc nhở này không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sau khi trải nghiệm công việc của Cừu Bố, Sóc tinh ranh đã nói: \"Bác ơi, con xin lỗi vì lúc nãy đã nói chuyện linh tinh thế ạ. May mà có bác thì mọi thứ mới sạch sẽ như thế này!\" \\n Em có đồng tình với hành động và lời nói của Sóc tinh ranh không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect":true},
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Khó khăn mà Cừu Bố gặp phải trong công việc là gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Phải làm việc dưới trời nắng nóng và mưa gió", "isCorrect": true },
+          { "text": "Không có ai giúp đỡ", "isCorrect": false },
+          { "text": "Công việc nhàm chán, không thú vị", "isCorrect": false },
+          { "text": "Không được trả lương", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Vì sao Sóc tinh ranh ban đầu không muốn vào nhóm của Cừu Bố?",
+        "type": 2,
+        "answers": [
+          { "text": "Vì Sóc cho rằng nghề quét rác không hay và không phải là nghề", "isCorrect": true },
+          { "text": "Vì Sóc không thích Cừu Bố", "isCorrect": false },
+          { "text": "Vì Sóc muốn được phân vào nhóm của bạn thân", "isCorrect": false },
+          { "text": "Vì Sóc nghĩ mình không làm được công việc đó", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Anh Cáo gian xảo đã nói gì khi nghe Sóc tinh ranh phàn nàn về nghề của Cừu Bố?",
+        "type": 2,
+        "answers": [
+          { "text": "Anh Cáo nhắc nhở Sóc rằng nếu không có Cừu Bố thì Tổ dân phố sẽ không sạch sẽ được", "isCorrect": true },
+          { "text": "Anh Cáo đồng ý với Sóc và cũng cho rằng nghề quét rác không quan trọng", "isCorrect": false },
+          { "text": "Anh Cáo không nói gì cả và bỏ đi", "isCorrect": false },
+          { "text": "Anh Cáo mắng Sóc vì đã không tôn trọng người lớn", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sau khi làm việc cùng Cừu Bố, Sóc tinh ranh đã nhận ra điều gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Sóc xin lỗi vì đã không tôn trọng công việc của Cừu Bố và nhận ra tầm quan trọng của nghề này", "isCorrect": true },
+          { "text": "Quét rác là công việc dễ dàng, không mệt nhọc", "isCorrect": false },
+          { "text": "Sóc vẫn không thích nghề của Cừu Bố", "isCorrect": false },
+          { "text": "Sóc quyết định sau này sẽ không làm nghề quét rác", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Kết thúc buổi trải nghiệm, Sóc tinh ranh đã rút ra bài học gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Mỗi nghề đều quan trọng, nếu thiếu đi một nghề, cuộc sống sẽ gặp nhiều khó khăn", "isCorrect": true },
+          { "text": "Chỉ có một số nghề là quan trọng và đáng được tôn trọng", "isCorrect": false },
+          { "text": "Nghề quét rác là nghề khó nhất trong các nghề", "isCorrect": false },
+          { "text": "Mọi người nên chọn nghề theo sở thích chứ không nên làm nghề quét rác", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Mỗi sáng khi đến trường trước khi diễn ra Ngày hội nghề nghiệp, Sóc tinh ranh thấy cô lao công đang quét dọn sân trường. Một hôm, Sóc tinh ranh đến sớm và thấy cô lao công đang gom rác. Thay vì chào hỏi cô, Sóc tinh ranh lại nói với bạn: \"Nhìn kìa, làm nghề quét rác thì có gì mà phải học nhiều, tớ nghĩ ai cũng làm được mà.\"",
+        "type": 4,
+        "answers": [
+          { "text": "Sóc tinh ranh đã không tôn trọng và biết ơn người lao động", "isCorrect": true },
+          { "text": "Sóc tinh ranh có quyền nói lên suy nghĩ của mình", "isCorrect": false },
+          { "text": "Sóc tinh ranh đã không nhận ra giá trị và sự đóng góp của nghề lao công", "isCorrect": true },
+          { "text": "Sóc tinh ranh nói đúng vì nghề quét rác không cần phải học nhiều", "isCorrect": false },
+          { "text": "Sóc tinh ranh đã thể hiện sự thiếu hiểu biết về công việc của người lao công", "isCorrect": true },
+          { "text": "Sóc tinh ranh đúng khi không chào hỏi bác lao công", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Một hôm, khi đang chơi ở sân trường, Sóc tinh ranh vô tình làm đổ thùng rác. Thay vì nhặt rác lên, Sóc nói: \"Có bác lao công mà, họ được trả tiền để làm việc này, mình không cần phải nhặt đâu.\" Rồi Sóc bỏ đi chơi tiếp.\\n Em hãy đánh giá hành vi của Sóc tinh ranh:",
+        "type": 4,
+        "answers": [
+          { "text": "Sóc tinh ranh đã không tôn trọng công sức của bác lao công", "isCorrect": true },
+          { "text": "Sóc tinh ranh đã đúng vì đó là công việc của bác lao công", "isCorrect": false },
+          { "text": "Sóc tinh ranh nên nhặt rác lên vì đó là trách nhiệm của bản thân", "isCorrect": true },
+          { "text": "Sóc tinh ranh không cần phải quan tâm đến việc này", "isCorrect": false },
+          { "text": "Sóc tinh ranh đã thể hiện sự ích kỷ và thiếu trách nhiệm", "isCorrect": true },
+          { "text": "Sóc tinh ranh đã đúng khi mặc kệ bác lao công và đi chơi luôn", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "1",
+    "level": "5",
+    "questions": [
+      {
+        "questionText": "Sau khi đọc câu chuyện \"Khu vui chơi của chúng mình\", em hãy chọn những ý đúng về biểu hiện bảo vệ của công:",
+        "answers": [
+          { "text": "Giữ gìn vệ sinh và không vứt rác bừa bãi trong khu vui chơi", "isCorrect": true },
+          { "text": "Vẽ tên mình lên ghế đá để đánh dấu chỗ ngồi", "isCorrect": false },
+          { "text": "Sử dụng đồ chơi công cộng đúng cách, đúng quy định", "isCorrect": true },
+          { "text": "Trèo lên mái che của cầu trượt để ngắm nhìn khung cảnh", "isCorrect": false },
+          { "text": "Nhắc nhở bạn bè cùng giữ gìn khu vui chơi sạch đẹp", "isCorrect": true },
+          { "text": "Thành lập đội bảo vệ khu vui chơi để chăm sóc và giám sát", "isCorrect": true },
+          { "text": "Nhặt rác và giữ gìn vệ sinh chung trong khu vui chơi", "isCorrect": true },
+          { "text": "Leo trèo lung tung trên các thiết bị để thử thách", "isCorrect": false },
+          { "text": "Trồng hoa làm đẹp khu vui chơi công cộng", "isCorrect": true },
+          { "text": "Khắc tên mình lên cầu trượt để lưu lại kỷ niệm", "isCorrect": false },
+          { "text": "Để bạn bè làm hỏng đồ chơi mà không nhắc nhở", "isCorrect": true },
+          { "text": "Cùng bạn bè đặt ra quy tắc để bảo vệ khu vui chơi", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Em hãy đánh dấu vào những ý thể hiện vì sao phải bảo vệ của công:",
+        "answers": [
+          { "text": "Của công là tài sản chung của tất cả mọi người", "isCorrect": true },
+          { "text": "Biết ơn người lao động giúp chúng ta hiểu được giá trị của sức lao động", "isCorrect": false },
+          { "text": "Bảo vệ của công giúp tạo môi trường sống đẹp và an toàn", "isCorrect": true },
+          { "text": "Nếu mình không làm hỏng thì người khác cũng sẽ làm hỏng, nên không cần bảo vệ của công", "isCorrect": false },
+          { "text": "Bảo vệ của công là góp phần xây dựng cộng đồng tốt đẹp hơn", "isCorrect": true },
+          { "text": "Của công là của tất cả mọi người, có thể tuỳ ý sử dụng theo ý thích của mình", "isCorrect": false },
+          { "text": "Nếu không bảo vệ, của công sẽ nhanh chóng bị hư hỏng", "isCorrect": true },
+          { "text": "Chỉ cần nhân viên vệ sinh lo việc bảo vệ của công", "isCorrect": false },
+          { "text": "Khi bảo vệ của công, mọi người sẽ cùng được hưởng lợi lâu dài", "isCorrect": true },
+          { "text": "Chỉ người lớn mới cần quan tâm đến việc bảo vệ của công", "isCorrect": false },
+          { "text": "Bảo vệ của công thể hiện ý thức tốt và tinh thần trách nhiệm", "isCorrect": true },
+          { "text": "Bảo vệ của công chỉ cần làm khi có người nhìn thấy", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": " Em hãy chọn những ý đúng về cách thể hiện bảo vệ của công sau khi đọc xong câu chuyện:",
+        "answers": [
+          { "text": "Sử dụng đồ chơi công cộng đúng cách, đúng quy định", "isCorrect": true },
+          { "text": "Vẽ lên ghế đá, tường công cộng để thể hiện sự sáng tạo", "isCorrect": false },
+          { "text": "Thành lập nhóm, đội bảo vệ để chăm sóc khu vui chơi", "isCorrect": true },
+          { "text": "Leo trèo lên mái che, lan can để thử cảm giác mạo hiểm", "isCorrect": false },
+          { "text": "Nhặt rác và giữ gìn vệ sinh chung trong khu vực công cộng", "isCorrect": true },
+          { "text": "Tự ý thay đổi cách sử dụng của công theo ý thích", "isCorrect": false },
+          { "text": "Nhắc nhở bạn bè cùng tham gia bảo vệ của công", "isCorrect": true },
+          { "text": "Phá hoại cây xanh, hoa cỏ trong công viên", "isCorrect": false },
+          { "text": "Trồng hoa, cây xanh để làm đẹp không gian chung", "isCorrect": true },
+          { "text": "Báo cáo với người lớn khi thấy ai đó làm hỏng của công", "isCorrect": true },
+          { "text": "Đặt ra và tuân thủ các quy tắc sử dụng của công", "isCorrect": true },
+          { "text": "Bỏ qua khi thấy người khác phá hoại của công", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "2",
+    "level": "5",
+    "questions": [
+      {
+        "questionText": "Tức giận vì bạn Cừu nhút nhát ra ngoài kiếm ăn mặc dù trời còn đang bão tuyết, ba người bạn bỏ mặc Cừu ở ngoài trời lạnh vì nghĩ rằng đây sẽ là một bài học giúp cho Cừu nhút nhát cẩn thận hơn. Em có đồng tình với hành động trên không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Khi thấy Cừu nhút nhát gặp khó khăn, Thỏ, Sóc và Út tò mò đã cùng nhau tìm cách giúp đỡ bạn. Mặc dù sau đó Cừu nhút nhát đã lấy lại sức nhưng ba người bạn vẫn quyết tâm dìu Cừu nhút nhát về nhà cẩn thận. Em có đồng tình với hành động trên không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sau khi được các bạn giúp đỡ, Cừu nhút nhát đã học được bài học về sự sẻ chia và sẵn sàng giúp đỡ người khác.",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect":true},
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Vì sao Cừu nhút nhát gặp khó khăn?",
+        "type": 2,
+        "answers": [
+          { "text": "Vì cậu không chịu trú ẩn khi trời lạnh.", "isCorrect": false },
+          { "text": "Vì cậu bị lạc, kiệt sức và bị thương.", "isCorrect": true },
+          { "text": "Vì cậu không thích quay về nhà.", "isCorrect": false },
+          { "text": "Vì cậu không có bạn bè.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Các con vật đã làm gì để giúp Cừu nhút nhát?",
+        "type": 2,
+        "answers": [
+          { "text": "Bỏ mặc cậu vì trời quá lạnh.", "isCorrect": false },
+          { "text": "Chỉ nói chuyện để động viên Cừu.", "isCorrect": false },
+          { "text": "Cùng nhau giữ ấm, tìm thức ăn và giúp Cừu về nhà.", "isCorrect": true },
+          { "text": "Đợi đến khi bão tuyết tan mới giúp đỡ.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sau khi được giúp đỡ, Cừu nhút nhát đã làm gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Vẫn nhút nhát, không dám ra ngoài nữa.", "isCorrect": false },
+          { "text": "Quên đi những người bạn của mình.", "isCorrect": false },
+          { "text": "Biết ơn các bạn và sẵn sàng giúp đỡ người khác.", "isCorrect": true },
+          { "text": "Không còn tin tưởng ai nữa.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Nếu Thỏ, Sóc và Út tò mò không giúp đỡ, chuyện gì sẽ xảy ra với Cừu nhút nhát?",
+        "type": 2,
+        "answers": [
+          { "text": "Cừu nhút nhát sẽ tự tìm đường về nhà mà không cần ai giúp đỡ.", "isCorrect": false },
+          { "text": "Cừu nhút nhát có thể bị lạnh, kiệt sức và gặp nguy hiểm.", "isCorrect": true },
+          { "text": "Cừu nhút nhát sẽ ngủ một giấc và tự khỏe lại.", "isCorrect": false },
+          { "text": "Cừu nhút nhát sẽ tìm được người khác giúp đỡ một cách dễ dàng.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Thỏ nghịch ngợm đã làm gì để giúp đỡ Cừu nhút nhát khi Cừu gặp khó khăn?",
+        "type": 2,
+        "answers": [
+          { "text": "Thỏ nghịch ngợm tìm những quả hạch của mình để mang đến cho Cừu ăn lấy lại sức.", "isCorrect": false },
+          { "text": "Thỏ nghịch ngợm lấy rêu và lá khô để giữ ấm cho Cừu.", "isCorrect": true },
+          { "text": "Thỏ nghịch ngợm đội cho Cừu chiếc mũ lông ấm áp của mình.", "isCorrect": false },
+          { "text": "Thỏ nghịch ngợm sẵn sàng giúp đỡ các loài vật khi gặp khó khăn.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Trong giờ ra chơi, Voi to khoẻ và các bạn sử dụng vòi nước uống ở sân trường để chơi đùa, làm nước bắn tung tóe khắp nơi và để vòi nước chảy mà không khóa lại. Cô giáo Hươu đi ngang qua và nhắc nhở các bạn nên sử dụng nước tiết kiệm và giữ gìn vòi nước sạch sẽ vì đó là của công, phục vụ cho tất cả học sinh trong trường. Em hãy đánh giá hành vi của Voi to khoẻ và các bạn:",
+        "type": 4,
+        "answers": [
+          { "text": "Voi to khoẻ và các bạn có quyền sử dụng vòi nước để chơi đùa vì đó là của công.", "isCorrect": false },
+          { "text": "Voi to khoẻ và các bạn đã không bảo vệ của công khi sử dụng vòi nước lãng phí.", "isCorrect": true },
+          { "text": "Voi to khoẻ và các bạn nên sử dụng nước tiết kiệm vì đó là tài nguyên quý giá.", "isCorrect": true },
+          { "text": "Để vòi nước chảy không khóa lại là biểu hiện không có ý thức bảo vệ của công.", "isCorrect": true },
+          { "text": "Chơi đùa với vòi nước là hoạt động vui chơi bình thường của học sinh.", "isCorrect": false },
+          { "text": "Làm nước bắn tung tóe gây mất vệ sinh và ảnh hưởng đến người khác.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Khi đi dã ngoại ở công viên, Cừu nhút nhát thấy một bạn đang khắc tên lên thân cây. Cừu liền nói: 'Bạn ơi, không nên khắc lên cây như thế. Cây xanh trong công viên là của công, chúng ta cần bảo vệ để mọi người được hưởng không khí trong lành. Khắc vào cây sẽ làm cây bị tổn thương và ảnh hưởng đến vẻ đẹp của công viên.' Em hãy đánh giá hành vi của Cừu nhút nhát:",
+        "type": 4,
+        "answers": [
+          { "text": "Cừu nhút nhát không nên can thiệp vào việc bạn khác đang làm.", "isCorrect": false },
+          { "text": "Cừu nhút nhát đã đúng khi nhắc nhở bạn không nên làm hại cây xanh công cộng.", "isCorrect": true },
+          { "text": "Cừu nhút nhát hiểu rằng cây xanh trong công viên là của công cần được bảo vệ.", "isCorrect": true },
+          { "text": "Cừu nhút nhát đã quá lo lắng vì khắc tên lên cây không ảnh hưởng nhiều.", "isCorrect": false },
+          { "text": "Cừu nhút nhát đã thể hiện tinh thần trách nhiệm khi bảo vệ của công.", "isCorrect": true },
+          { "text": "Cừu nhút nhát nên báo cho người lớn thay vì tự mình nhắc nhở bạn.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "1",
+    "level": "2",
+    "questions": [
+      {
+        "questionText": "Em hãy đánh dấu trước những bài học em rút ra từ câu chuyện.",
+        "answers": [
+          { "text": "Khi thấy người khác gặp khó khăn, chúng ta nên giúp đỡ họ.", "isCorrect": true },
+          { "text": "Đoàn kết, yêu thương nhau sẽ giúp mọi người vượt qua khó khăn.", "isCorrect": true },
+          { "text": "Chỉ giúp đỡ người khác khi mình có lợi ích.", "isCorrect": false },
+          { "text": "Những người tốt bụng luôn được mọi người yêu quý.", "isCorrect": true },
+          { "text": "Cảm thông và giúp đỡ nhau là điều quan trọng trong cuộc sống.", "isCorrect": true },
+          { "text": "Phải lấy tất cả những đồ vật mình có ra để giúp đỡ người khác.", "isCorrect": false },
+          { "text": "Khi gặp khó khăn, không nên nhờ sự giúp đỡ từ người khác, mà phải tự mình chịu đựng.", "isCorrect": false },
+          { "text": "Khi nhận được sự giúp đỡ, cần biết ơn và sẵn sàng giúp đỡ người khác khi có thể.", "isCorrect": true },
+          { "text": "Biết quan tâm, chia sẻ với bạn bè sẽ giúp tình bạn thêm bền chặt.", "isCorrect": true },
+          { "text": "Giúp đỡ người khác không chỉ mang lại niềm vui cho họ mà còn khiến bản thân cảm thấy hạnh phúc.", "isCorrect": true },
+          { "text": "Khi gặp người cần giúp đỡ, phải suy nghĩ thật lâu rồi mới hành động.", "isCorrect": false },
+          { "text": "Nếu ai đó gặp nạn, chỉ cần đứng nhìn vì đó không phải việc của mình.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Em hãy đánh dấu vào những ý em cho là đúng về lí do cần phải cảm thông, giúp đỡ những người gặp khó khăn.",
+        "answers": [
+          { "text": "Người đang trong hoàn cảnh khó khăn sẽ rất buồn và tự ti với cuộc sống. Nếu được giúp đỡ họ sẽ có niềm tin hơn vào cuộc sống.", "isCorrect": true },
+          { "text": "Vì nếu không giúp đỡ, em sẽ bị phê bình.", "isCorrect": false },
+          { "text": "Vì giúp đỡ người khác là trách nhiệm bắt buộc của mỗi người.", "isCorrect": false },
+          { "text": "Giúp đỡ người khác mang lại niềm hạnh phúc cho bản thân.", "isCorrect": true },
+          { "text": "Giúp đỡ người khác sẽ được họ cảm ơn và giúp đỡ lại.", "isCorrect": true },
+          { "text": "Giúp đỡ người khác giúp hình thành một lối sống, nếp sống đẹp.", "isCorrect": true },
+          { "text": "Giúp đỡ người khác sẽ được bố mẹ, thầy cô khen thưởng.", "isCorrect": false },
+          { "text": "Vì ai cũng có lúc gặp khó khăn, cần sự giúp đỡ.", "isCorrect": true },
+          { "text": "Vì giúp đỡ người khác là cách thể hiện lòng nhân ái, một đức tính tốt đẹp mà ai cũng nên có.", "isCorrect": true },
+          { "text": "Chỉ có người giàu mới cần giúp đỡ người nghèo, còn trẻ em thì không cần quan tâm.", "isCorrect": false },
+          { "text": "Vì nếu không giúp đỡ, chúng ta sẽ bị bạn bè ghét bỏ và cô lập.", "isCorrect": false },
+          { "text": "Vì nếu không giúp đỡ, có thể sau này mình cũng sẽ bị mọi người thờ ơ khi gặp khó khăn.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Em hãy đánh dấu vào những câu ca dao, tục ngữ, thành ngữ nói về sự cảm thông, giúp đỡ người gặp khó khăn.",
+        "answers": [
+          { "text": "Lá lành đùm lá rách.", "isCorrect": true },
+          { "text": "Thương người như thể thương thân.", "isCorrect": true },
+          { "text": "Có công mài sắt, có ngày nên kim", "isCorrect": false },
+          { "text": "Một con ngựa đau, cả tàu bỏ cỏ.", "isCorrect": true },
+          { "text": "Chị ngã, em nâng.", "isCorrect": true },
+          { "text": "Bán anh em xa, mua láng giềng gần.", "isCorrect": true },
+          { "text": "Đói cho sạch, rách cho thơm.", "isCorrect": false },
+          { "text": "Thấy ai đói rách thì thương\nRét thường cho mặc, đói thường cho ăn.", "isCorrect": true },
+          { "text": "Ăn cháo đá bát.", "isCorrect": false },
+          { "text": "Cá không ăn muối cá ươn\nCon cãi cha mẹ trăm đường con hư.", "isCorrect": false },
+          { "text": "Nhiễu điều phủ lấy giá gương\nNgười trong một nước phải thương nhau cùng.", "isCorrect": true },
+          { "text": "Bầu ơi thương lấy bí cùng\nTuy rằng khác giống nhưng chung một giàn.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "2",
+    "level": "2",
+    "questions": [
+      {
+        "questionText": "Voi to khoẻ nói: \"Mình thích chiếc bút màu của bạn Thỏ, nên đã lấy về nhà mà không nói với bạn ấy. Dù sao bạn ấy còn nhiều bút màu khác mà.\" \\n Em có đồng tình với hành động và lời nói của Vo to khoẻ không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": " Khi thấy Voi to khoẻ vẽ bậy lên bàn học của lớp, Gấu trung thực đã nói: \"Bạn không nên vẽ lên bàn như vậy. Đây là tài sản chung của lớp, chúng mình cần giữ gìn để các bạn khác cũng được sử dụng bàn ghế sạch sẽ.\" \\n Em có đồng tình với lời nhắc nhở này không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": " Sau khi mượn cặp thước của Út tò mò một tuần, Voi to khỏe trả lại với vết bẩn và một cái thước bị gãy. Voi nói: \"Có gì đâu mà phải xin lỗi, đồ dùng học tập thì sớm muộn cũng hư thôi.\" \\n Em có đồng tình với hành động và lời nói của Voi to khỏe không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      
+      {
+        "questionText": "Tại sao chiếc bình nước lại có ý nghĩa đặc biệt với Cừu nhút nhát?",
+        "type": 2,
+        "answers": [
+          { "text": "Vì đó là món quà đặc biệt từ bà ngoại tặng", "isCorrect": true },
+          { "text": "Vì đó là chiếc bình đắt tiền nhất", "isCorrect": false },
+          { "text": "Vì đó là chiếc bình nước đẹp nhất lớp", "isCorrect": false },
+          { "text": "Vì đó là chiếc bình Cừu nhút nhát vừa mua", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Cô giáo đã dạy các bạn điều gì sau khi chiếc bình bị vỡ?",
+        "type": 2,
+        "answers": [
+          { "text": "Không nên mang đồ quý đến trường", "isCorrect": false },
+          { "text": "Không nên chia sẻ đồ dùng với bạn bè", "isCorrect": false },
+          { "text": "Nên xếp hàng, đợi đến lượt và cẩn thận với đồ của người khác", "isCorrect": true },
+          { "text": "Cô giáo không nói gì cả", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Lý do nào dẫn đến việc chiếc bình nước của Cừu nhút nhát bị vỡ?",
+        "type": 2,
+        "answers": [
+          { "text": "Các bạn tranh nhau xem và thiếu cẩn thận", "isCorrect": true },
+          { "text": "Cừu nhút nhát cố tình làm rơi", "isCorrect": false },
+          { "text": "Các bạn làm mất chiếc bình", "isCorrect": false },
+          { "text": "Sàn nhà quá trơn nên bình bị trượt", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sau khi làm vỡ bình nước, Út tò mò và Sóc tinh ranh đã làm gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Xin lỗi và góp tiền tiết kiệm mua bình mới tặng Cừu", "isCorrect": true },
+          { "text": "Trốn tránh và không nhận lỗi", "isCorrect": false },
+          { "text": "Đổ lỗi cho Cừu nhút nhát", "isCorrect": false },
+          { "text": "Bỏ mặc Cừu nhút nhát buồn bã", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Bài học quan trọng nhất mà các bạn học được từ câu chuyện là gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Phải biết tôn trọng và cẩn thận với tài sản của người khác", "isCorrect": true },
+          { "text": "Không nên mang đồ quý đến trường", "isCorrect": false },
+          { "text": "Làm vỡ đồ người khác thì bỏ chạy", "isCorrect": false },
+          { "text": "Không nên chia sẻ đồ dùng với bạn bè", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Trong lớp em, có một bạn mới chuyển đến từ một vùng quê xa. Bạn ấy còn nhút nhát, nói giọng địa phương, mặc quần áo giản dị và không có nhiều đồ dùng học tập như các bạn khác. Một số bạn trong lớp tỏ ra xa lánh, thậm chí trêu chọc bạn. Em sẽ làm gì?",
+        "type": 4,
+        "answers": [
+          { "text": "Tham gia cùng các bạn khác để trêu chọc bạn mới vì thấy bạn ấy 'khác biệt'.", "isCorrect": false },
+          { "text": "Chủ động làm quen, trò chuyện với bạn, mời bạn tham gia các hoạt động của lớp để bạn nhanh chóng hòa nhập.", "isCorrect": true },
+          { "text": "Báo với thầy cô giáo về tình trạng bạn bị xa lánh để có hướng hỗ trợ.", "isCorrect": true },
+          { "text": "Chỉ chơi với bạn khi không có ai khác nhìn thấy để tránh bị trêu cùng.", "isCorrect": false },
+          { "text": "Giúp bạn ấy tập nói giọng phổ thông để dễ giao tiếp hơn.", "isCorrect": true },
+          { "text": "Nhắc nhở các bạn không nên trêu chọc bạn ấy và luôn đối xử công bằng với bạn.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Trên đường đi học về, em thấy một cụ già ăn xin ngồi co ro bên đường, quần áo rách rưới, vẻ mặt mệt mỏi. Một số người đi ngang qua nhưng không ai dừng lại. Em cảm thấy thương cụ nhưng không biết có nên giúp đỡ hay không. Em sẽ làm gì?",
+        "type": 4,
+        "answers": [
+          { "text": "Nếu có đồ ăn hoặc một ít tiền lẻ, em sẽ đưa cho cụ để giúp cụ có bữa ăn.", "isCorrect": true },
+          { "text": "Mặc kệ vì nghĩ rằng có nhiều người ăn xin giả vờ.", "isCorrect": false },
+          { "text": "Cười và chụp ảnh cụ để đăng lên mạng.", "isCorrect": false },
+          { "text": "Hỏi thầy cô hoặc cha mẹ xem có cách nào giúp cụ hiệu quả hơn không.", "isCorrect": true },
+          { "text": "Nói với cụ rằng nên tự kiếm việc làm thay vì ngồi xin tiền.", "isCorrect": false },
+          { "text": "Dẫn cụ đến nơi có bóng râm hoặc hỏi cụ có muốn được giúp đưa đến trung tâm hỗ trợ người khó khăn không.", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "1",
+    "level": "4",
+    "questions": [
+      {
+        "questionText": "Sau khi đọc câu chuyện \"Chiếc bình nước của Cừu nhút nhát\", em hãy chọn những ý đúng về biểu hiện tôn trọng tài sản của người khác: ",
+        "answers": [
+          { "text": "Xếp hàng ngay ngắn khi muốn xem đồ của bạn.", "isCorrect": true },
+          { "text": "Thoải mái cầm đồ của người khác mà không cần hỏi ý kiến", "isCorrect": false },
+          { "text": "Cẩn thận khi cầm đồ của người khác", "isCorrect": true },
+          { "text": "Nên tranh giành để được xem đồ của bạn trước", "isCorrect": false },
+          { "text": "Kiên nhẫn chờ đến lượt mình khi muốn xem đồ của bạn", "isCorrect": true },
+          { "text": "Không cần xin lỗi khi làm hỏng đồ của người khác", "isCorrect": false },
+          { "text": "Bồi thường khi làm hỏng đồ của người khác", "isCorrect": true },
+          { "text": "Có thể lấy đồ của người khác nếu đồ đó đẹp", "isCorrect": false },
+          { "text": "Xin phép trước khi mượn đồ của người khác", "isCorrect": true },
+          { "text": "Chỉ tôn trọng đồ đắt tiền của người khác", "isCorrect": false },
+          { "text": "Trả lại đồ đã mượn đúng hẹn và nguyên vẹn", "isCorrect": true },
+          { "text": "Giữ gìn đồ dùng chung của khi mượn đồ của bạn", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Em hãy đánh dấu vào những ý thể hiện vì sao phải tôn trọng tài sản của người khác:",
+        "answers": [
+          { "text": "Tài sản của người khác có thể có giá trị tinh thần đặc biệt với họ", "isCorrect": true },
+          { "text": "Chỉ cần tôn trọng tài sản đắt tiền của người khác", "isCorrect": false },
+          { "text": "Tôn trọng tài sản của người khác là thể hiện sự tôn trọng với chính người đó", "isCorrect": true },
+          { "text": "Không cần tôn trọng tài sản của người mình không thích", "isCorrect": false },
+          { "text": "Tài sản cá nhân là kết quả của sự lao động, tích lũy của mỗi người", "isCorrect": true },
+          { "text": "Chỉ tôn trọng tài sản của người lớn, không cần tôn trọng tài sản của bạn bè", "isCorrect": false },
+          { "text": "Tôn trọng tài sản của người khác giúp duy trì mối quan hệ tốt đẹp", "isCorrect": true },
+          { "text": "Làm hỏng tài sản của người khác không gây tổn thương gì", "isCorrect": false },
+          { "text": "Tôn trọng tài sản người khác giúp mình được mọi người yêu quý", "isCorrect": true },
+          { "text": "Không cần tôn trọng tài sản của người khác vì họ có thể mua đồ mới", "isCorrect": false },
+          { "text": "Tôn trọng tài sản của người khác thể hiện nhân cách tốt đẹp", "isCorrect": true },
+          { "text": "Chỉ cần tôn trọng tài sản của người khác khi họ đang ở đó", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Em hãy chọn những ý đúng về bài học mà các bạn rút ra từ câu chuyện \"Chiếc bình nước của Cừu nhút nhát\":",
+        "answers": [
+          { "text": "Nên xếp hàng ngay ngắn và đợi đến lượt khi muốn xem đồ của bạn", "isCorrect": true },
+          { "text": "Chỉ cần cẩn thận với đồ đắt tiền của người khác", "isCorrect": false },
+          { "text": "Cần phải cẩn thận khi cầm nắm đồ dùng của người khác", "isCorrect": true },
+          { "text": "Có thể thoải mái động vào đồ của bạn mà không cần hỏi", "isCorrect": false },
+          { "text": "Khi làm hỏng đồ của người khác nên biết nhận lỗi và sửa sai", "isCorrect": true },
+          { "text": "Không cần quan tâm đến cảm xúc của bạn khi làm hỏng đồ của họ", "isCorrect": false },
+          { "text": "Tò mò quá mức có thể gây ra hậu quả không tốt", "isCorrect": true },
+          { "text": "Các bạn Sóc và Út đã sai khi góp tiền mua bình mới cho Cừu", "isCorrect": false },
+          { "text": "Đồ dùng của người khác có thể mang giá trị tinh thần đặc biệt", "isCorrect": true },
+          { "text": "Mọi người đều nên bỏ qua nếu đồ của mình bị làm hỏng", "isCorrect": false },
+          { "text": "Khi làm hỏng đồ của người khác thì nên bồi thường hoặc khắc phục hậu qu", "isCorrect": true },
+          { "text": "Đoàn kết và sửa sai là cách để khắc phục lỗi lầm", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "2",
+    "level": "4",
+    "questions": [
+      {
+        "questionText": "Voi to khoẻ nói: \"Mình thích chiếc bút màu của bạn Thỏ, nên đã lấy về nhà mà không nói với bạn ấy. Dù sao bạn ấy còn nhiều bút màu khác mà.\" \\n Em có đồng tình với hành động và lời nói của Vo to khoẻ không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": " Khi thấy Voi to khoẻ vẽ bậy lên bàn học của lớp, Gấu trung thực đã nói: \"Bạn không nên vẽ lên bàn như vậy. Đây là tài sản chung của lớp, chúng mình cần giữ gìn để các bạn khác cũng được sử dụng bàn ghế sạch sẽ.\" \\n Em có đồng tình với lời nhắc nhở này không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": " Sau khi mượn cặp thước của Út tò mò một tuần, Voi to khỏe trả lại với vết bẩn và một cái thước bị gãy. Voi nói: \"Có gì đâu mà phải xin lỗi, đồ dùng học tập thì sớm muộn cũng hư thôi.\" \\n Em có đồng tình với hành động và lời nói của Voi to khỏe không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      
+      {
+        "questionText": "Tại sao chiếc bình nước lại có ý nghĩa đặc biệt với Cừu nhút nhát?",
+        "type": 2,
+        "answers": [
+          { "text": "Vì đó là món quà đặc biệt từ bà ngoại tặng", "isCorrect": true },
+          { "text": "Vì đó là chiếc bình đắt tiền nhất", "isCorrect": false },
+          { "text": "Vì đó là chiếc bình nước đẹp nhất lớp", "isCorrect": false },
+          { "text": "Vì đó là chiếc bình Cừu nhút nhát vừa mua", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Cô giáo đã dạy các bạn điều gì sau khi chiếc bình bị vỡ?",
+        "type": 2,
+        "answers": [
+          { "text": "Không nên mang đồ quý đến trường", "isCorrect": false },
+          { "text": "Không nên chia sẻ đồ dùng với bạn bè", "isCorrect": false },
+          { "text": "Nên xếp hàng, đợi đến lượt và cẩn thận với đồ của người khác", "isCorrect": true },
+          { "text": "Cô giáo không nói gì cả", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Lý do nào dẫn đến việc chiếc bình nước của Cừu nhút nhát bị vỡ?",
+        "type": 2,
+        "answers": [
+          { "text": "Các bạn tranh nhau xem và thiếu cẩn thận", "isCorrect": true },
+          { "text": "Cừu nhút nhát cố tình làm rơi", "isCorrect": false },
+          { "text": "Các bạn làm mất chiếc bình", "isCorrect": false },
+          { "text": "Sàn nhà quá trơn nên bình bị trượt", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sau khi làm vỡ bình nước, Út tò mò và Sóc tinh ranh đã làm gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Xin lỗi và góp tiền tiết kiệm mua bình mới tặng Cừu", "isCorrect": true },
+          { "text": "Trốn tránh và không nhận lỗi", "isCorrect": false },
+          { "text": "Đổ lỗi cho Cừu nhút nhát", "isCorrect": false },
+          { "text": "Bỏ mặc Cừu nhút nhát buồn bã", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Bài học quan trọng nhất mà các bạn học được từ câu chuyện là gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Phải biết tôn trọng và cẩn thận với tài sản của người khác", "isCorrect": true },
+          { "text": "Không nên mang đồ quý đến trường", "isCorrect": false },
+          { "text": "Làm vỡ đồ người khác thì bỏ chạy", "isCorrect": false },
+          { "text": "Không nên chia sẻ đồ dùng với bạn bè", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Khi ghé thăm nhà bạn Hươu xinh đẹp, Gấu trung thực thấy một chiếc máy tính bảng đẹp trên bàn. Gấu rất thích và muốn chơi nhưng Hươu đang ở trong bếp. Gấu liền tự ý cầm lên và mở máy để chơi game. Khi chơi, Gấu vô tình làm rơi máy xuống sàn khiến màn hình bị nứt. Gấu hoảng sợ, nhanh chóng đặt máy lại vị trí cũ và không nói với Hươu",
+        "type": 4,
+        "answers": [
+          { "text": "Gấu trung thực đã không tôn trọng tài sản của bạn Hươu", "isCorrect": true },
+          { "text": "Gấu trung thực đúng khi không báo với Hươu về việc làm hỏng máy tính bảng", "isCorrect": false },
+          { "text": "Gấu trung thực đã sai khi không xin phép trước khi sử dụng đồ của bạn", "isCorrect": true },
+          { "text": "Gấu trung thực có quyền dùng đồ của bạn khi đến chơi nhà bạn", "isCorrect": false },
+          { "text": "Gấu trung thực đã không dũng cảm nhận lỗi khi làm hỏng đồ của bạn", "isCorrect": true },
+          { "text": "Gấu trung thực nên xin lỗi và bồi thường thiệt hại cho Hươu", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Trong giờ ra chơi, Út tò mò thấy chiếc hộp bút mới và đẹp của Cừu nhút nhát để trên bàn. Út muốn xem nên đã hỏi: \"Cừu ơi, mình có thể xem chiếc hộp bút của bạn được không? \". Sau khi Cừu đồng ý, Út cẩn thận cầm lên xem và trả lại ngay sau đó, còn nói lời cảm ơn",
+        "type": 4,
+        "answers": [
+          { "text": "Út tò mò đã đúng khi xin phép trước khi xem đồ của bạn", "isCorrect": true },
+          { "text": "Út tò mò đã không tôn trọng tài sản của Cừu nhút nhát ", "isCorrect": false },
+          { "text": " Út tò mò đã sai khi nói lời cảm ơn", "isCorrect": true },
+          { "text": "Út tò mò không cần phải xin phép Cừu nhút nhát", "isCorrect": false },
+          { "text": "Út tò mò đã thể hiện sự tôn trọng tài sản của bạn", "isCorrect": true },
+          { "text": "Út tò mò nên tự ý lấy hộp bút xem mà không cần hỏi", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "1",
+    "level": "8",
+    "questions": [
     {
-      "game": "1",
-      "level": "1",
-      "questions": [
-        {
-          "questionText": "Đâu là động vật?",
-          "answers": [
-            { "text": "Dog", "isCorrect": true },
-            { "text": "Car", "isCorrect": false },
-            { "text": "Cat", "isCorrect": true },
-            { "text": "Tree", "isCorrect": false },
-            { "text": "Fish", "isCorrect": true },
-            { "text": "Banana", "isCorrect": false },
-            { "text": "Bird", "isCorrect": true },
-            { "text": "House", "isCorrect": false },
-            { "text": "Horse", "isCorrect": true },
-            { "text": "Chair", "isCorrect": false },
-            { "text": "Elephant", "isCorrect": true },
-            { "text": "Phone", "isCorrect": false }
-          ]
-        },
-        {
-          "questionText": "Đâu là động vật là con gì?",
-          "answers": [
-            { "text": "Dog", "isCorrect": true },
-            { "text": "Car", "isCorrect": false },
-            { "text": "Cat", "isCorrect": true },
-            { "text": "Tree", "isCorrect": false },
-            { "text": "Fish", "isCorrect": true },
-            { "text": "Banana", "isCorrect": false },
-            { "text": "Bird", "isCorrect": true },
-            { "text": "House", "isCorrect": false },
-            { "text": "Horse", "isCorrect": true },
-            { "text": "Chair", "isCorrect": false },
-            { "text": "Elephant", "isCorrect": true },
-            { "text": "Phone", "isCorrect": false }
-          ]
-        },
-        {
-          "questionText": "Chọn nguyên tố hóa học",
-          "answers": [
-            { "text": "Hydrogen", "isCorrect": true },
-            { "text": "Banana", "isCorrect": false },
-            { "text": "Oxygen", "isCorrect": true },
-            { "text": "Dog", "isCorrect": false },
-            { "text": "Neon", "isCorrect": true },
-            { "text": "Cat", "isCorrect": false },
-            { "text": "Helium", "isCorrect": true },
-            { "text": "Fish", "isCorrect": false },
-            { "text": "Nitrogen", "isCorrect": true },
-            { "text": "Chair", "isCorrect": false },
-            { "text": "Carbon", "isCorrect": true },
-            { "text": "Tree", "isCorrect": false }
-          ]
-        }
+      "questionText": "Sau buổi học, các bạn nhỏ trong câu chuyện đã rút ra được bài học gì?",
+      "answers": [
+        { "text": "Quyền lợi luôn đi kèm với bổn phận.", "isCorrect": true },
+        { "text": "Ai cũng có quyền được học tập và không ai có quyền cười nhạo người khác.", "isCorrect": true },
+        { "text": "Chỉ những bạn giỏi mới có quyền đi học.", "isCorrect": false },
+        { "text": "Nếu có quyền vui chơi thì có thể nghịch phá tùy ý.", "isCorrect": false },
+        { "text": "Trẻ em có quyền được yêu thương nhưng cũng phải biết nghe lời bố mẹ.", "isCorrect": true },
+        { "text": "Nếu không thực hiện bổn phận, vẫn sẽ không có vấn đề gì xảy ra.", "isCorrect": false },
+        { "text": "Khu rừng sẽ trở nên hòa thuận hơn khi mọi người biết tôn trọng nhau.", "isCorrect": true },
+        { "text": "Chỉ có những con vật mạnh mẽ mới có bổn phận giúp đỡ người khác.", "isCorrect": false },
+        { "text": "Tôn trọng người khác cũng chính là tôn trọng chính mình.", "isCorrect": true },
+        { "text": "Mỗi người đều có trách nhiệm với bản thân và cộng đồng.", "isCorrect": true },
+        { "text": "Trẻ em phải được sự đồng ý của bố mẹ mới được phép đi học.", "isCorrect": false },
+        { "text": "Cần chia sẻ, động viên bạn bè thực hiện quyền được học tập của mình.", "isCorrect": true }
       ]
     },
     {
-      "game": "2",
-      "level": "1",
-      "questions": [
-          {
-              "questionText": "Bạn có đồng ý rằng học lập trình giúp cải thiện tư duy logic không?",
-              "type": 1,
-              "answers": [
-                  { "text": "Đồng tình", "isCorrect": true },
-                  { "text": "Không đồng tình", "isCorrect": false }
-              ]
-          },
-          {
-              "questionText": "Bạn có đồng ý rằng AI sẽ thay thế hoàn toàn con người trong công việc không?",
-              "type": 1,
-              "answers": [
-                  { "text": "Đồng tình", "isCorrect": false },
-                  { "text": "Không đồng tình", "isCorrect": true }
-              ]
-          },
-          {
-              "questionText": "Đâu là thủ đô của Việt Nam?",
-              "type": 2,
-              "answers": [
-                  { "text": "Hà Nội", "isCorrect": true },
-                  { "text": "TP. Hồ Chí Minh", "isCorrect": false },
-                  { "text": "Đà Nẵng", "isCorrect": false },
-                  { "text": "Hải Phòng", "isCorrect": false }
-              ]
-          },
-          {
-              "questionText": "Hãy nhập vào ngôn ngữ lập trình mà bạn yêu thích nhất.",
-              "type": 3,
-              "answers": [
-                  { "text": "Python", "isCorrect": true },
-                  { "text": "Java", "isCorrect": false },
-                  { "text": "C++", "isCorrect": false },
-                  { "text": "JavaScript", "isCorrect": false }
-              ]
-          },
-          {
-              "questionText": "Những công nghệ nào sau đây liên quan đến trí tuệ nhân tạo?",
-              "type": 4,
-              "answers": [
-                  { "text": "Machine Learning", "isCorrect": true },
-                  { "text": "Blockchain", "isCorrect": false },
-                  { "text": "Deep Learning", "isCorrect": true },
-                  { "text": "Quantum Computing", "isCorrect": false },
-                  { "text": "Neural Networks", "isCorrect": true },
-                  { "text": "Cybersecurity", "isCorrect": false }
-              ]
-          }
+      "questionText": "Em hãy đánh dấu vào những ý thể hiện quyền và bổn phận của trẻ em.",
+      "answers": [
+        { "text": "Trẻ em có quyền được giáo dục, học tập và phát triển năng khiếu, được vui chơi, giải trí phù hợp với lứa tuổi.", "isCorrect": true },
+        { "text": "Trẻ em có quyền được nói lên ý kiến và được lắng nghe.", "isCorrect": true },
+        { "text": "Trẻ em có quyền tự ý nghỉ học nếu thấy chán.", "isCorrect": false },
+        { "text": "Trẻ em có quyền làm theo sở thích cá nhân mà không quan tâm đến hậu quả.", "isCorrect": false },
+        { "text": "Trẻ em có quyền được bảo vệ khỏi bạo lực, xâm hại và bóc lột sức lao động.", "isCorrect": true },
+        { "text": "Trẻ em có quyền bắt nạt bạn bè nếu bạn đó yếu hơn mình.", "isCorrect": false },
+        { "text": "Trẻ em có quyền được yêu thương và chăm sóc từ cha mẹ, gia đình.", "isCorrect": true },
+        { "text": "Trẻ em có bổn phận tôn trọng, vâng lời cha mẹ, thầy cô và người lớn, biết chia sẻ, yêu thương mọi người.", "isCorrect": true },
+        { "text": "Trẻ em có bổn phận thực hiện các quy định của nhà trường, gia đình và xã hội.", "isCorrect": true },
+        { "text": "Trẻ em có bổn phận giúp đỡ cha mẹ trong công việc gia đình phù hợp với khả năng.", "isCorrect": true },
+        { "text": "Trẻ em không cần thực hiện bổn phận gì vì cha mẹ có trách nhiệm lo cho mình.", "isCorrect": false },
+        { "text": "Trẻ em vì còn nhỏ nên có thể nói dối để tránh bị phạt.", "isCorrect": false }
       ]
     },
     {
-      "game": "1",
-      "level": "2",
-      "questions": [
-        {
-          "questionText": "Đâu là động vật?",
-          "answers": [
-            { "text": "Dog", "isCorrect": true },
-            { "text": "Car", "isCorrect": false },
-            { "text": "Cat", "isCorrect": true },
-            { "text": "Tree", "isCorrect": false },
-            { "text": "Fish", "isCorrect": true },
-            { "text": "Banana", "isCorrect": false },
-            { "text": "Bird", "isCorrect": true },
-            { "text": "House", "isCorrect": false },
-            { "text": "Horse", "isCorrect": true },
-            { "text": "Chair", "isCorrect": false },
-            { "text": "Elephant", "isCorrect": true },
-            { "text": "Phone", "isCorrect": false }
-          ]
-        },
-        {
-          "questionText": "Đâu là động vật là con gì?",
-          "answers": [
-            { "text": "Dog", "isCorrect": true },
-            { "text": "Car", "isCorrect": false },
-            { "text": "Cat", "isCorrect": true },
-            { "text": "Tree", "isCorrect": false },
-            { "text": "Fish", "isCorrect": true },
-            { "text": "Banana", "isCorrect": false },
-            { "text": "Bird", "isCorrect": true },
-            { "text": "House", "isCorrect": false },
-            { "text": "Horse", "isCorrect": true },
-            { "text": "Chair", "isCorrect": false },
-            { "text": "Elephant", "isCorrect": true },
-            { "text": "Phone", "isCorrect": false }
-          ]
-        },
-        {
-          "questionText": "Chọn nguyên tố hóa học",
-          "answers": [
-            { "text": "Hydrogen", "isCorrect": true },
-            { "text": "Banana", "isCorrect": false },
-            { "text": "Oxygen", "isCorrect": true },
-            { "text": "Dog", "isCorrect": false },
-            { "text": "Neon", "isCorrect": true },
-            { "text": "Cat", "isCorrect": false },
-            { "text": "Helium", "isCorrect": true },
-            { "text": "Fish", "isCorrect": false },
-            { "text": "Nitrogen", "isCorrect": true },
-            { "text": "Chair", "isCorrect": false },
-            { "text": "Carbon", "isCorrect": true },
-            { "text": "Tree", "isCorrect": false }
-          ]
-        }
-      ]
-    },
-    {
-      "game": "2",
-      "level": "2",
-      "questions": [
-          {
-              "questionText": "Bạn  không?",
-              "type": 1,
-              "answers": [
-                  { "text": "Đồng tình", "isCorrect": true },
-                  { "text": "Không đồng tình", "isCorrect": false }
-              ]
-          },
-          {
-              "questionText": "Bạn có đệc không?",
-              "type": 1,
-              "answers": [
-                  { "text": "Đồng tình", "isCorrect": false },
-                  { "text": "Không đồng tình", "isCorrect": true }
-              ]
-          },
-          {
-              "questionText": "Đâu làcủa Việt Nam?",
-              "type": 2,
-              "answers": [
-                  { "text": "Hà Nội", "isCorrect": true },
-                  { "text": "TP. Hồ Chí Minh", "isCorrect": false },
-                  { "text": "Đà Nẵng", "isCorrect": false },
-                  { "text": "Hải Phòng", "isCorrect": false }
-              ]
-          },
-          {
-              "questionText": "Hãy nhập vào n yêu thích nhất.",
-              "type": 3,
-              "answers": [
-                  { "text": "Python", "isCorrect": true },
-                  { "text": "Java", "isCorrect": false },
-                  { "text": "C++", "isCorrect": false },
-                  { "text": "JavaScript", "isCorrect": false }
-              ]
-          },
-          {
-              "questionText": "Những công tuệ nhân tạo?",
-              "type": 4,
-              "answers": [
-                  { "text": "Machine Learning", "isCorrect": true },
-                  { "text": "Blockchain", "isCorrect": false },
-                  { "text": "Deep Learning", "isCorrect": true },
-                  { "text": "Quantum Computing", "isCorrect": false },
-                  { "text": "Neural Networks", "isCorrect": true },
-                  { "text": "Cybersecurity", "isCorrect": false }
-              ]
-          }
+      "questionText": "Em hãy đánh dấu trước những ý thể hiện vì sao phải thực hiện quyền và bổn phận của trẻ em.",
+      "answers": [
+        { "text": "Thực hiện quyền giúp trẻ em được bảo vệ, chăm sóc và phát triển toàn diện.", "isCorrect": true },
+        { "text": "Nếu trẻ em không thực hiện bổn phận thì cũng không sao, vì chỉ người lớn mới cần có trách nhiệm.", "isCorrect": false },
+        { "text": "Chỉ cần thực hiện quyền, không cần quan tâm đến bổn phận vì quyền lợi là quan trọng nhất.", "isCorrect": false },
+        { "text": "Thực hiện bổn phận giúp trẻ em trở thành người có ích, góp phần xây dựng gia đình và xã hội tốt đẹp hơn.", "isCorrect": true },
+        { "text": "Thực hiện quyền và bổn phận giúp trẻ em tự tin, hòa đồng và được mọi người yêu quý.", "isCorrect": true },
+        { "text": "Không cần thực hiện bổn phận vì cha mẹ và thầy cô đã làm hết mọi việc cho mình.", "isCorrect": false },
+        { "text": "Khi thực hiện quyền, trẻ em sẽ biết được giá trị của bản thân và cảm thấy hạnh phúc.", "isCorrect": true },
+        { "text": "Nếu tất cả trẻ em đều thực hiện tốt bổn phận của mình, xã hội sẽ trở nên văn minh, đoàn kết và tốt đẹp hơn.", "isCorrect": true },
+        { "text": "Chỉ những trẻ em lớn mới cần thực hiện bổn phận, còn trẻ nhỏ thì không cần.", "isCorrect": false },
+        { "text": "Thực hiện bổn phận giúp trẻ em trở nên tự lập, có trách nhiệm và biết yêu thương gia đình, bạn bè.", "isCorrect": true },
+        { "text": "Nếu trẻ em không thực hiện bổn phận của mình, có thể làm ảnh hưởng đến người khác và gây mất trật tự trong xã hội.", "isCorrect": true },
+        { "text": "Thực hiện bổn phận giúp trẻ em không bị người lớn mắng.", "isCorrect": false }
       ]
     }
-  ] 
+  ]
+  },
+  {
+    "game": "2",
+    "level": "8",
+    "questions": [
+      {
+        "questionText": "Sóc tinh ranh bỏ học giữa chừng vì thấy bài giảng quá dễ.Trong buổi học, sau khi nghe thầy Thỏ Trí Tuệ giảng một lúc, Sóc tinh ranh nghĩ rằng bài học hôm nay quá đơn giản, không có gì mới mẻ. Bạn ấy liền rủ Thỏ nghịch ngợm trốn ra ngoài chơi thay vì tiếp tục lắng nghe bài giảng.Em có đồng tình với hành động của Sóc tinh ranh không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": " Thỏ nghịch ngợm không làm bài tập về nhà vì nghĩ rằng mình có quyền vui chơi sau khi đi học về, Thỏ nghịch ngợm nghĩ: \"Mình có quyền vui chơi mà! Làm bài tập mệt lắm, cứ để mai tính!\"\\n Em có đồng tình với hành động của Thỏ nghịch ngợm không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+      "questionText": "Thỏ nghịch ngợm chủ động giúp mẹ dọn nhà\\nChiều nay, sau khi đi học về, Thỏ nghịch ngợm thấy mẹ đang quét dọn nhà cửa. Thay vì chạy đi chơi như mọi khi, Thỏ liền chạy lại hỏi:\\n\\\"Mẹ ơi, con có thể giúp mẹ không?\\\"\\nThỏ Mẹ mỉm cười, xoa đầu Thỏ và nói:\\n\\\"Cảm ơn con! Nhưng con vừa tan học xong, hãy nghỉ ngơi đi cho đỡ mệt nhé!\\\"\\nThỏ ôm lấy mẹ \\\"Nhưng con cũng cần phải giúp đỡ mẹ nữa mà!\\\"\\nEm có đồng tình với hành động của Thỏ nghịch ngợm không? Vì sao?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      
+        {
+          "questionText": "Vì sao Sóc Bố đồng ý để Sóc tinh ranh tham gia buổi học của Thỏ Trí Tuệ?",
+          "type": 2,
+          "answers": [
+              { "text": "Vì Sóc tinh ranh đã hoàn thành hết bài tập về nhà.", "isCorrect": false },
+              { "text": "Vì Sóc tinh ranh có quyền được học tập.", "isCorrect": true },
+              { "text": "Vì Sóc Bố nghĩ rằng đi học sẽ giúp Sóc tinh ranh thông minh hơn rất nhiều.", "isCorrect": false },
+              { "text": "Vì Sóc tinh ranh dọa sẽ không nghe lời nếu không được đi học.", "isCorrect": false }
+          ]
+      },
+      {
+          "questionText": "Vì sao Thỏ Trí Tuệ hỏi Sóc tinh ranh rằng 'Thế con nghĩ sao nếu có ai đó không tôn trọng con?'",
+          "type": 2,
+          "answers": [
+              { "text": "Để giúp Sóc hiểu rằng không phải mọi hành động đều có tác động đến người khác.", "isCorrect": false },
+              { "text": "Để kiểm tra xem Sóc có thông minh không.", "isCorrect": false },
+              { "text": "Vì Thỏ Trí Tuệ không đồng ý với câu hỏi của Sóc.", "isCorrect": false },
+              { "text": "Vì Thỏ Trí Tuệ muốn Sóc hiểu rằng ai cũng cần được tôn trọng.", "isCorrect": true }
+          ]
+      },
+      {
+          "questionText": "Trong câu chuyện, Thỏ Trí Tuệ nhấn mạnh điều gì về quyền và bổn phận của trẻ em?",
+          "type": 2,
+          "answers": [
+              { "text": "Chỉ có quyền lợi là quan trọng, còn bổn phận thì không cần thực hiện cũng được.", "isCorrect": false },
+              { "text": "Nếu không thích, trẻ em có thể chọn không thực hiện bổn phận của mình.", "isCorrect": false },
+              { "text": "Thực hiện bổn phận giúp trẻ em phát triển tốt hơn và góp phần làm cho cộng đồng hòa thuận.", "isCorrect": true },
+              { "text": "Bổn phận là điều bắt buộc nhưng quyền thì không phải lúc nào cũng cần thực hiện.", "isCorrect": false }
+          ]
+      },
+      {
+          "questionText": "Kết thúc câu chuyện, Cừu Nhút Nhát đã thay đổi như thế nào?",
+          "type": 2,
+          "answers": [
+              { "text": "Bạn ấy vẫn sợ học và không dám vào lớp.", "isCorrect": false },
+              { "text": "Bạn ấy hiểu ra rằng mình có quyền học tập và quyết tâm chăm chỉ hơn.", "isCorrect": true },
+              { "text": "Bạn ấy vẫn nhút nhát và không muốn học cùng các bạn.", "isCorrect": false },
+              { "text": "Bạn ấy quyết định không tham gia lớp học nữa.", "isCorrect": false }
+          ]
+      },
+      {
+          "questionText": "Sau buổi học, ba người bạn đã rút ra điều gì?",
+          "type": 2,
+          "answers": [
+              { "text": "Trẻ em có quyền học tập nhưng không cần thực hiện bổn phận.", "isCorrect": false },
+              { "text": "Quyền lợi luôn đi kèm với bổn phận, mỗi người đều có trách nhiệm với chính mình và cộng đồng.", "isCorrect": true },
+              { "text": "Trẻ em có thể làm bất cứ điều gì mà không cần tuân theo quy tắc nào.", "isCorrect": false },
+              { "text": "Chỉ cần thực hiện bổn phận, không cần quan tâm đến quyền lợi.", "isCorrect": false }
+          ]
+      },
+      {
+        "questionText": "Lan mới 10 tuổi nhưng hằng ngày sau giờ học, em phải đi bán vé số đến tối muộn để giúp gia đình kiếm tiền. Mỗi lần kêu mệt, bố mẹ lại trách mắng và bắt Lan tiếp tục làm việc. Bố bảo rằng, nếu Lan không đi bán vé số thì sẽ không có tiền cho Lan đi học, Lan sẽ phải nghỉ học để ở nhà phụ giúp gia đình. Theo em, tình huống trên đã xâm phạm những quyền trẻ em nào?",
+        "type": 4,
+        "answers": [
+          { "text": "Quyền được học tập, vui chơi, giải trí.", "isCorrect": true },
+          { "text": "Quyền được sống.", "isCorrect": false },
+          { "text": "Quyền được bảo vệ để không bị bóc lột sức lao động.", "isCorrect": true },
+          { "text": "Quyền được chăm sóc và yêu thương.", "isCorrect": true },
+          { "text": "Quyền được bày tỏ ý kiến.", "isCorrect": true },
+          { "text": "Quyền được sống chung với cha, mẹ.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Minh là con út trong gia đình và thường được chiều chuộng. Dạo gần đây, Minh hay cãi lại ông bà khi bị nhắc nhở. Có lần, ông nội bảo Minh ngồi xuống để trò chuyện, nhưng Minh lơ đi và tiếp tục chơi game. Ở nhà, Minh cũng không giúp đỡ bố mẹ làm việc nhà. Khi mẹ nhờ Minh quét nhà hoặc rửa bát sau bữa cơm, Minh phớt lờ và nói: 'Mẹ làm đi, con trai không cần làm việc nhà đâu!' Dần dần, Minh trở nên thô lỗ hơn, thường xuyên lớn tiếng với ông bà và bố mẹ. Thậm chí, khi bố mẹ nhắc nhở, Minh vùng vằng, đóng sầm cửa phòng lại. Theo em, Minh đã không thực hiện những bổn phận nào của trẻ em?",
+        "type": 4,
+        "answers": [
+          { "text": "Hiếu thảo, kính trọng ông bà, cha mẹ", "isCorrect": true },
+          { "text": "Khi bị nhắc nhở, cãi lại người lớn để bảo vệ ý kiến của mình", "isCorrect": false },
+          { "text": "Chỉ cần học giỏi, không cần làm việc nhà", "isCorrect": false },
+          { "text": "Chơi game là quyền tự do của trẻ em, không ai được nhắc nhở", "isCorrect": false },
+          { "text": "Giúp đỡ cha mẹ trong công việc nhà phù hợp với khả năng", "isCorrect": true },
+          { "text": "Cư xử đúng mực, lắng nghe và lễ phép, không thô lỗ với người lớn", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "1",
+    "level": "3",
+    "questions": [
+    {
+      "questionText": "Trong truyện \"Cuối tuần ở khu rừng xanh\" những nhân vật nào dưới đây có hành động thể hiện việc yêu lao động?",
+      "answers": [
+        { "text": "Út tò mò", "isCorrect": true },
+        { "text": "Cáo gian xảo", "isCorrect": false },
+        { "text": "Cô giáo Heo", "isCorrect": false },
+        { "text": "Thỏ trí tuệ", "isCorrect": true },
+        { "text": "Chồn láu cá", "isCorrect": false },
+        { "text": "Thỏ nghịch ngợm", "isCorrect": true },
+        { "text": "Cừu nhút nhát", "isCorrect": true },
+        { "text": "Sóc bố", "isCorrect": false },
+        { "text": "Thỏ dịu dàng", "isCorrect": true },
+        { "text": "Sóc tinh ranh", "isCorrect": false },
+        { "text": "Mèo tinh nghịch", "isCorrect": false },
+        { "text": "Chồn mẹ", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Những biểu hiện nào dưới đây thể hiện yêu lao động?",
+      "answers": [
+        { "text": "Trốn dọn dẹp khu phố", "isCorrect": false },
+        { "text": "Cùng tham gia dọn dẹp khu phố", "isCorrect": true },
+        { "text": "Giúp mẹ rửa bát", "isCorrect": true },
+        { "text": "Đùn đẩy công việc", "isCorrect": false },
+        { "text": "Nhờ người khác làm hộ phần việc của mình", "isCorrect": false },
+        { "text": "Không hoàn thành công việc được giao", "isCorrect": false },
+        { "text": "Quét dọn lớp học", "isCorrect": true },
+        { "text": "Thái độ tiêu cực khi lao động", "isCorrect": false },
+        { "text": "Chăm sóc vườn rau giúp ông bà", "isCorrect": true },
+        { "text": "Chỉ làm những công việc dễ", "isCorrect": false },
+        { "text": "Làm việc một cách cẩu thả", "isCorrect": false },
+        { "text": "Giữ gìn vệ sinh nơi công cộng", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Những tính cách nào dưới đây thể hiện yêu lao động?",
+      "answers": [
+        { "text": "Chăm chỉ", "isCorrect": true },
+        { "text": "Lười biếng", "isCorrect": false },
+        { "text": "Thiếu trách nhiệm", "isCorrect": false },
+        { "text": "Hợp tác", "isCorrect": true },
+        { "text": "Trì hoãn", "isCorrect": false },
+        { "text": "Trách nhiệm", "isCorrect": true },
+        { "text": "Kỷ luật", "isCorrect": true },
+        { "text": "Thụ động", "isCorrect": false },
+        { "text": "Chán nản", "isCorrect": false },
+        { "text": "Chủ động", "isCorrect": true },
+        { "text": "Cẩu thả", "isCorrect": false },
+        { "text": "Lạc quan", "isCorrect": true }
+      ]
+    }
+  ]
+  },
+  {
+    "game": "2",
+    "level": "3",
+    "questions": [
+      {
+        "questionText": "Cáo gian xảo nằm vắt vẻo trên ghế, trốn không dọn dẹp khu phố cùng mọi người. Em có đồng tình với hành động trên của Cáo không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Cừu nhút nhát rất mong đợi đến thứ 7 hàng tuần, vì vào hôm đó cậu và gia đình sẽ cùng nhau dọn dẹp nhà cửa và khu phố. Điều này giúp cho ngôi nhà và khu phố trông thật sạch sẽ và xinh đẹp. Em đồng tình hay không đồng tình với hành động của Cừu nhút nhát?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sóc mẹ dặn hai anh em Sóc dậy dọn nhà cho mẹ trong khi mẹ đi vắng. Sóc tinh ranh ngủ nướng để cho Sóc em tự dọn dẹp nhà cửa. Em đồng tình hay không đồng tình với hành động này của Sóc tinh ranh?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Vào thứ 7 hàng tuần, khu phố Rừng xanh có hoạt động gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Các gia đình tự dọn dẹp vệ sinh nhà của mình.", "isCorrect": false },
+          { "text": "Gia đình nhà Thỏ tự dọn dẹp khu phố một mình.", "isCorrect": false },
+          { "text": "Các gia đình cùng nhau dọn dẹp khu phố.", "isCorrect": false },
+          { "text": "Cả hai đáp án A, C", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Theo Thỏ dịu dàng, tại sao gia đình nhà Thỏ sau khi dọn nhà xong lại phải dọn dẹp cả khu phố?",
+        "type": 2,
+        "answers": [
+          { "text": "Do đây là việc hàng tuần của khu phố.", "isCorrect": false },
+          { "text": "Do Thỏ trí tuệ bắt cả gia đình đi dọn dẹp khu phố.", "isCorrect": false },
+          { "text": "Vì khu rừng là nhà của mọi người.", "isCorrect": true },
+          { "text": "Do khu rừng đang rất bẩn nên phải dọn.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Út tò mò cảm thấy như nào khi được dọn vệ sinh khu phố cùng mọi người?",
+        "type": 2,
+        "answers": [
+          { "text": "Út tò mò thấy vui khi được góp phần làm sạch khu rừng.", "isCorrect": true },
+          { "text": "Út tò mò thấy vui vẻ vì được chơi cùng các bạn.", "isCorrect": false },
+          { "text": "Út tò mò thấy mệt mỏi vì phải dọn cả khu rừng.", "isCorrect": false },
+          { "text": "Út tò mò thấy thích thú vì lần đầu được dọn dẹp với mọi người.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Tại sao Cáo gian xảo lại ngồi chơi trong khi mọi người đang dọn dẹp khu phố?",
+        "type": 2,
+        "answers": [
+          { "text": "Do Cáo đang bị ốm nên không làm.", "isCorrect": false },
+          { "text": "Do mọi người làm hết rồi cần gì Cáo phải tốn công làm nữa.", "isCorrect": true },
+          { "text": "Do Cáo gian xảo mới làm xong, đang ngồi nghỉ mệt.", "isCorrect": false },
+          { "text": "Do Cáo gian xảo giận dỗi mọi người nên không làm.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Mọi người trong khu phố có hành động như nào khi thấy Cáo gian xảo trốn dọn dẹp?",
+        "type": 2,
+        "answers": [
+          { "text": "Mọi người đều thấy Cáo gian xảo nói đúng.", "isCorrect": false },
+          { "text": "Chỉ có Thỏ nghịch ngợm là không đồng tình.", "isCorrect": false },
+          { "text": "Mọi người đều lắc đầu, tỏ vẻ không đồng tình.", "isCorrect": true },
+          { "text": "Mọi người to tiếng mắng Cáo gian xảo.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sau khi ăn cơm tối xong, Thỏ nghịch ngợm thấy bát đũa để đầy một bồn chưa được rửa. Mẹ Thỏ dịu dàng sau khi ăn cơm xong đã lên chỉ Út tò mò học bài còn bố Thỏ trí tuệ đang sửa lại chiếc xe đạp trước sân nhà. Em nghĩ Thỏ nghịch ngợm nên làm gì?",
+        "type": 4,
+        "answers": [
+          { "text": "Thỏ nghịch ngợm kệ bát đũa, quay đi làm việc của mình.", "isCorrect": false },
+          { "text": "Thỏ nghịch ngợm chủ động rửa bát đũa phụ bố mẹ.", "isCorrect": true },
+          { "text": "Thỏ nghịch ngợm gọi mẹ xuống rửa.", "isCorrect": false },
+          { "text": "Thỏ nghịch ngợm đợi bố sửa xe xong rồi vào rửa.", "isCorrect": false },
+          { "text": "Thỏ nghịch ngợm chủ động hỏi mẹ để mình rửa bát giúp cho.", "isCorrect": true },
+          { "text": "Thỏ nghịch ngợm lờ đi coi như không phải nhiệm vụ của mình nên không cần quan tâm.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Cô giáo Heo giao cho các bạn lớp 4A nhiệm vụ chăm sóc cây xanh ở trong lớp và ở ngoài ban công. Cô phân cho cứ hai bạn phụ trách một cây, Thỏ nghịch ngợm và Sóc tinh ranh thành một nhóm chăm sóc chậu cây ở góc ban công. Một hôm nọ, Sóc tinh ranh ra tưới cây cho chậu cây của nhóm mình thì phát hiện hai chậu cây bên cạnh có vẻ bị quên tưới nước 2 – 3 ngày. Em nghĩ bạn Sóc nên làm gì trong tình huống trên?",
+        "type": 4,
+        "answers": [
+          { "text": "Sóc tinh ranh mặc kệ hai chậu hoa kia, chỉ lo chăm sóc chậu hoa của mình.", "isCorrect": false },
+          { "text": "Sóc tinh ranh mách cô, để cô phạt hai nhóm chăm sóc hai chậu kia.", "isCorrect": false },
+          { "text": "Sóc tinh ranh tưới nước cho hai chậu cây kia.", "isCorrect": true },
+          { "text": "Sóc tinh ranh ra nhắc nhở hai nhóm để các bạn chú ý chăm sóc hơn.", "isCorrect": true },
+          { "text": "Sóc tinh ranh ra nói với cả lớp để cả lớp phê bình hai nhóm kia.", "isCorrect": false },
+          { "text": "Sóc tinh ranh kệ và ra kể lại cho Thỏ nghịch ngợm nghe.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "1",
+    "level": "6",
+    "questions": [
+      {
+        "questionText": "Những nhân vật nào trong truyện thể hiện đúng việc thiết lập và duy trì quan hệ bạn bè?",
+        "answers": [
+          { "text": "Cừu nhút nhát", "isCorrect": false },
+          { "text": "Út tò mò", "isCorrect": true },
+          { "text": "Thỏ nghịch ngợm", "isCorrect": false },
+          { "text": "Mèo tinh nghịch", "isCorrect": true },
+          { "text": "Cáo gian xảo", "isCorrect": false },
+          { "text": "Chồn bố", "isCorrect": false },
+          { "text": "Chồn láu cá", "isCorrect": false },
+          { "text": "Cô giáo Heo", "isCorrect": false },
+          { "text": "Sóc tinh ranh", "isCorrect": true },
+          { "text": "Sóc mẹ", "isCorrect": false },
+          { "text": "Cừu bố", "isCorrect": false },
+          { "text": "Thỏ dịu dàng", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Những hành động nào sau đây dùng để thiết lập và duy trì quan hệ bạn bè?",
+        "answers": [
+          { "text": "Tự tin giới thiệu bản thân", "isCorrect": true },
+          { "text": "Không ra chào hỏi bạn mới", "isCorrect": false },
+          { "text": "Không trả lời câu hỏi của bạn", "isCorrect": false },
+          { "text": "Luôn mỉm cười khi nói chuyện", "isCorrect": true },
+          { "text": "Không quan tâm đến bạn mới", "isCorrect": false },
+          { "text": "Hỏi tên bạn mới", "isCorrect": true },
+          { "text": "Quan tâm đến bạn mới", "isCorrect": true },
+          { "text": "Không hoà đồng với các bạn", "isCorrect": false },
+          { "text": "Giúp đỡ bạn bè", "isCorrect": true },
+          { "text": "Tôn trọng bạn bè", "isCorrect": true },
+          { "text": "Ích kỷ với các bạn", "isCorrect": false },
+          { "text": "Phân biệt đối xử với các bạn", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Những tính cách nào dưới đây phù hợp để thiết lập và duy trì quan hệ bạn bè?",
+        "answers": [
+          { "text": "Ích kỷ", "isCorrect": false },
+          { "text": "Hoà đồng", "isCorrect": true },
+          { "text": "Thô lỗ", "isCorrect": false },
+          { "text": "Trung thực", "isCorrect": true },
+          { "text": "Thiếu tôn trọng", "isCorrect": false },
+          { "text": "Thân thiện", "isCorrect": true },
+          { "text": "Khoan dung", "isCorrect": true },
+          { "text": "Nóng giận", "isCorrect": false },
+          { "text": "Ghen tị", "isCorrect": false },
+          { "text": "Tự ti", "isCorrect": false },
+          { "text": "Vui vẻ", "isCorrect": true },
+          { "text": "Tự tin", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "2",
+    "level": "6",
+    "questions": [
+      {
+        "questionText": "Cừu nhút nhát vì tự ti nên đã thu mình lại, không dám chơi cùng Mèo tinh nghịch, Út tò mò và Sóc tinh ranh nữa. Em có đồng tình với hành động trên không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Mèo tinh nghịch phát hiện dạo này Cừu nhút nhát không đi chung với ba đứa nữa nên rất lo lắng. Vì Mèo tinh nghịch rất thích chơi với Cừu nhút nhát nên cậu muốn tìm hiểu xem Cừu đang có chuyện gì. Em có đồng tình với suy nghĩ của Mèo tinh nghịch không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Trong khu phố rừng xanh, có bạn Mèo tinh nghịch mới đến. Cáo gian xảo thấy thế liền rủ các bạn trong khu phố cô lập Mèo vì cho rằng Mèo mới đến không hoà nhập được. Em có đồng tình với hành động của Cáo gian xảo không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      
+      {
+        "questionText": "Vì sao Cừu nhút nhát lại không ra làm quen với Mèo tinh nghịch?",
+        "type": 2,
+        "answers": [
+          { "text": "Vì Cừu nhút nhát thấy Mèo có nhiều bạn ra làm quen, Cừu thấy ngại.", "isCorrect": true },
+          { "text": "Vì Cừu đã biết bạn Mèo sẵn rồi.", "isCorrect": false },
+          { "text": "Vì Cừu không thích bạn Mèo.", "isCorrect": false },
+          { "text": "Vì Cừu lười đi ra làm quen.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Tại sao Cừu nhút nhát lại không đợi ba bạn: Sóc, Mèo và Út mà lại đi về trước?",
+        "type": 2,
+        "answers": [
+          { "text": "Do Cừu có việc nên về trước.", "isCorrect": false },
+          { "text": "Do Cừu không thích Mèo và Sóc.", "isCorrect": false },
+          { "text": "Do Cừu nghĩ mình là người dư thừa.", "isCorrect": true },
+          { "text": "Do Cừu muốn làm các bạn bất ngờ.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Ai là người phát hiện ra vấn đề của Cừu nhút nhát đầu tiên?",
+        "type": 2,
+        "answers": [
+          { "text": "Sóc tinh ranh", "isCorrect": false },
+          { "text": "Mèo tinh nghịch", "isCorrect": true },
+          { "text": "Út tò mò", "isCorrect": false },
+          { "text": "Cô giáo Heo", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Ba bạn: Sóc tinh ranh, Út tò mò và Mèo tinh nghịch đã giải quyết vấn đề của Cừu nhút nhát như nào?",
+        "type": 2,
+        "answers": [
+          { "text": "Ba bạn lờ đi coi như không biết.", "isCorrect": false },
+          { "text": "Chỉ có bạn Mèo quan tâm, còn hai bạn Út và Sóc không quan tâm.", "isCorrect": false },
+          { "text": "Các bạn không chơi với bạn Cừu nữa.", "isCorrect": false },
+          { "text": "Ba bạn tìm đến nhà Cừu để nói chuyện với Cừu.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Hiểu lầm giữa Cừu nhút nhát và Mèo tinh nghịch là gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Mèo nghĩ rằng Cừu không thích chơi với mình.", "isCorrect": false },
+          { "text": "Cừu thấy Mèo ham chơi quá nên không thích.", "isCorrect": false },
+          { "text": "Cừu sợ Mèo không thích mình do bản thân nhút nhát quá.", "isCorrect": true },
+          { "text": "Mèo thấy Cừu tự ti quá nên không thích.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Lớp 4A có bạn Hươu là học sinh mới chuyển đến. Trong giờ ra chơi, Hươu chỉ ngồi một mình và không nói chuyện với ai. Khi có bài tập nhóm, Hươu cũng không biết phải làm việc với ai. Sóc tinh ranh là bạn cùng lớp với Hươu, Sóc nên làm gì để giúp Hươu có thêm bạn?",
+        "type": 4,
+        "answers": [
+          { "text": "Rủ Hươu chơi cùng trong giờ ra chơi và giới thiệu Hươu với các bạn khác.", "isCorrect": true },
+          { "text": "Kệ Hươu vì bạn ấy nhút nhát, nếu muốn có bạn thì tự kết bạn.", "isCorrect": false },
+          { "text": "Chỉ nói chuyện với Hươu khi có bài tập nhóm, còn bình thường không quan tâm.", "isCorrect": false },
+          { "text": "Nhắc nhở các bạn trong lớp rằng Hươu là học sinh mới nhưng không cần chủ động giúp đỡ.", "isCorrect": false },
+          { "text": "Chủ động trò chuyện, hỏi han Hươu về sở thích để Hươu cảm thấy thoải mái hơn.", "isCorrect": true },
+          { "text": "Mời Hươu tham gia vào nhóm học tập hoặc nhóm chơi cùng mình để bạn nhanh chóng hòa nhập.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Thỏ nghịch ngợm và Sóc tinh ranh là đôi bạn thân, nhưng gần đây Sóc tinh ranh chơi thân với một nhóm bạn mới và ít nói chuyện với Thỏ nghịch ngợm hơn. Sóc cảm thấy rất buồn nhưng không biết nên làm gì. Theo em, Sóc tinh ranh nên làm gì để giữ gìn tình bạn với Thỏ nghịch ngợm?",
+        "type": 4,
+        "answers": [
+          { "text": "Chủ động rủ Thỏ đi chơi hoặc làm bài tập chung để duy trì tình bạn.", "isCorrect": true },
+          { "text": "Tránh xa Thỏ vì nghĩ rằng Thỏ đã có nhóm bạn mới và không cần mình nữa.", "isCorrect": false },
+          { "text": "Nói chuyện thẳng thắn với Thỏ về cảm xúc của mình và bày tỏ mong muốn tiếp tục làm bạn.", "isCorrect": true },
+          { "text": "Cố gắng phá nhóm bạn mới của Thỏ để Thỏ quay lại chơi thân với mình như trước.", "isCorrect": false },
+          { "text": "Làm quen và hòa nhập với nhóm bạn mới của Thỏ để có thêm bạn và giữ được tình bạn với Thỏ nghịch ngợm.", "isCorrect": true },
+          { "text": "Giận dỗi, không nói chuyện với Thỏ để Thỏ tự nhận ra lỗi của mình.", "isCorrect": false }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "1",
+    "level": "7",
+    "questions": [
+      {
+        "questionText": "Tiền dùng để làm gì?",
+        "answers": [
+          { "text": "Mua quần áo", "isCorrect": true },
+          { "text": "Vứt vào thùng rác", "isCorrect": false },
+          { "text": "Xé bỏ", "isCorrect": false },
+          { "text": "Mua xe đạp", "isCorrect": true },
+          { "text": "Làm lót bàn ăn", "isCorrect": false },
+          { "text": "Mua vé vào công viên giải trí", "isCorrect": true },
+          { "text": "Dùng để lau cốc", "isCorrect": false },
+          { "text": "Mua đồ chơi", "isCorrect": true },
+          { "text": "Đóng học phí", "isCorrect": true },
+          { "text": "Dùng để nháp", "isCorrect": false },
+          { "text": "Dùng để lau bút", "isCorrect": false },
+          { "text": "Dùng để làm đồ chơi", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Những đặc điểm nào sau đây thể hiện sự vất vả của người lao động khi kiếm tiền?",
+        "answers": [
+          { "text": "Nặng nhọc", "isCorrect": true },
+          { "text": "Vất vả", "isCorrect": true },
+          { "text": "Rảnh rỗi", "isCorrect": false },
+          { "text": "Căng thẳng", "isCorrect": true },
+          { "text": "Nhẹ nhàng", "isCorrect": false },
+          { "text": "Nguy hiểm", "isCorrect": true },
+          { "text": "Không áp lực", "isCorrect": false },
+          { "text": "Linh hoạt", "isCorrect": false },
+          { "text": "Ít tốn sức lực", "isCorrect": false },
+          { "text": "Thoải mái", "isCorrect": false },
+          { "text": "Ít thời gian", "isCorrect": true },
+          { "text": "Áp lực", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Những cách nào dưới đây có thể sử dụng để tiết kiệm, bảo quản tiền bạc?",
+        "answers": [
+          { "text": "Mua đồ tuỳ tiện", "isCorrect": false },
+          { "text": "Tắt điện khi không sử dụng", "isCorrect": true },
+          { "text": "Cất tiền vào két", "isCorrect": true },
+          { "text": "Có tiền là tiêu hết ngay", "isCorrect": false },
+          { "text": "Cất tiền trong ví", "isCorrect": true },
+          { "text": "Mua những thứ cần thiết", "isCorrect": true },
+          { "text": "Để tiền nơi ẩm ướt", "isCorrect": false },
+          { "text": "Lãng phí điện", "isCorrect": false },
+          { "text": "Bỏ tiền vào lợn tiết kiệm", "isCorrect": true },
+          { "text": "Không so sánh giá trước khi mua", "isCorrect": false },
+          { "text": "Mua đồ ăn nhiều quá, ăn không hết", "isCorrect": false },
+          { "text": "Chỉ mang đủ số tiền cần dùng", "isCorrect": true }
+        ]
+      }
+    ]
+  },
+  {
+    "game": "2",
+    "level": "7",
+    "questions": [
+      {
+        "questionText": "Chồn láu cá đã dùng hết tiền lì xì trong Tết của mình để mua đồ chơi. Em có đồng tình với hành động trên không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Thỏ nghịch ngợm mỗi khi có tiền đều để dành một ít để bỏ vào chiếc hũ tiết kiệm của mình. Em có đồng tình với hành động của Thỏ nghịch ngợm không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": true },
+          { "text": "Không đồng tình", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Sóc tinh ranh được bố mẹ cho 50.000 đồng để mua sách vở cho năm học mới. Trên đường đi, Sóc nhìn thấy chiếc ô tô điều khiển mà cậu rất thích. Cậu liền vào mua mà không suy nghĩ. Khi đến hiệu sách, Sóc nhận ra mình không còn đủ tiền để mua sách vở. Về nhà, Sóc đã nói dối bố mẹ rằng đã làm rơi tiền để xin thêm tiền mua sách. Em có đồng tình với hành động trên không?",
+        "type": 1,
+        "answers": [
+          { "text": "Đồng tình", "isCorrect": false },
+          { "text": "Không đồng tình", "isCorrect": true }
+        ]
+      },
+      
+      {
+        "questionText": "Chồn láu cá đã dùng hết tiền lì xì để làm gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Mua sách vở để học tập.", "isCorrect": false },
+          { "text": "Mua đồ chơi.", "isCorrect": true },
+          { "text": "Mua bánh kẹo.", "isCorrect": false },
+          { "text": "Mua quà cho cả nhà.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Cô giáo Heo đã thông báo cho cả lớp về vấn đề gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Cô giáo Heo dặn các bạn nộp tiền để mua sách.", "isCorrect": false },
+          { "text": "Cô giáo Heo dặn các bạn mang quần áo để ủng hộ các bạn có hoàn cảnh khó khăn.", "isCorrect": false },
+          { "text": "Cô giáo Heo dặn các bạn xin tiền ủng hộ các bạn có hoàn cảnh khó khăn.", "isCorrect": true },
+          { "text": "Cô giáo Heo dặn các bạn mang sách vở.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Chồn láu cá đã nghe thấy bố mẹ nói chuyện về chuyện gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Về việc đi làm thì vất vả mà không kiếm được bao nhiêu.", "isCorrect": false },
+          { "text": "Về việc mai nên cho Chồn bao nhiêu tiền tiêu vặt.", "isCorrect": false },
+          { "text": "Lo lắng về việc nhà còn nhiều thứ phải chi tiêu.", "isCorrect": false },
+          { "text": "Cả hai đáp án A và C", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Sau khi nghe bố mẹ nói chuyện xong, Chồn láu cá có suy nghĩ như thế nào?",
+        "type": 2,
+        "answers": [
+          { "text": "Chồn kệ vì nghĩ đây là chuyện của bố mẹ.", "isCorrect": false },
+          { "text": "Chồn lo lắng nên đã khóc rất nhiều.", "isCorrect": false },
+          { "text": "Chồn lo lắng vì sợ mai không có tiền ủng hộ để nộp cho cô.", "isCorrect": false },
+          { "text": "Chồn thấy buồn và tự nhủ phải học cách tiết kiệm.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Chồn láu cá đã nhờ Thỏ nghịch ngợm giúp điều gì?",
+        "type": 2,
+        "answers": [
+          { "text": "Chồn láu cá đã xin Thỏ nghịch ngợm một chiếc hũ tiết kiệm.", "isCorrect": true },
+          { "text": "Chồn láu cá đã xin Thỏ nghịch ngợm 5 nghìn đồng.", "isCorrect": false },
+          { "text": "Chồn láu cá đã nhờ Thỏ nghịch ngợm xin cô giúp mình.", "isCorrect": false },
+          { "text": "Chồn láu cá đã nhờ Thỏ nghịch ngợm chỉ cách bảo quản tiền.", "isCorrect": false }
+        ]
+      },
+      {
+        "questionText": "Được bà cho 50.000 đồng, Sóc tinh ranh quyết định ra tiệm tạp hóa mua nhiều bánh kẹo và đồ chơi đắt tiền. Khi về nhà, cậu khoe với Sóc mẹ, nhưng Sóc mẹ không vui và nói: 'Con đã chi tiêu không hợp lý rồi!'. Nếu em là bạn của Sóc, em sẽ khuyên Sóc điều gì?",
+        "type": 4,
+        "answers": [
+          { "text": "Nói với Sóc rằng tiền là của bạn ấy, bạn ấy thích tiêu thế nào cũng được.", "isCorrect": false },
+          { "text": "Giải thích cho Sóc hiểu rằng cần mua những thứ thật sự cần thiết trước.", "isCorrect": true },
+          { "text": "Nhắc Sóc rằng nếu tiết kiệm một phần tiền, sau này có thể dùng vào việc quan trọng hơn.", "isCorrect": true },
+          { "text": "Động viên Sóc là do mẹ không hiểu được sở thích của Sóc thôi.", "isCorrect": false },
+          { "text": "Khuyên Sóc tiêu hết tiền ngay vì lần sau có thể sẽ được cho thêm.", "isCorrect": false },
+          { "text": "Gợi ý cho Sóc dành một phần tiền để giúp đỡ những người khó khăn hoặc mua đồ dùng học tập.", "isCorrect": true }
+        ]
+      },
+      {
+        "questionText": "Trong lớp có bạn Mèo tinh nghịch thường hay khoe quần áo, giày dép hàng hiệu đắt tiền. Nhìn thấy vậy, Cừu nhút nhát cũng muốn mua đồ thật đắt như Mèo, dù biết rằng gia đình mình không có điều kiện. Cừu về nhà đòi bố mẹ mua cho bằng được một đôi giày đắt tiền. Nếu em là bạn của Cừu nhút nhát, em sẽ khuyên bạn điều gì?",
+        "type": 4,
+        "answers": [
+          { "text": "Khuyên Cừu không nên so sánh với Mèo vì mỗi gia đình có điều kiện khác nhau.", "isCorrect": true },
+          { "text": "Nói với Cừu rằng chỉ khi mặc đồ đắt tiền mới được mọi người tôn trọng.", "isCorrect": false },
+          { "text": "Khuyên Cừu rằng điều quan trọng không phải là giá trị món đồ, mà là cách mình sử dụng và giữ gìn chúng.", "isCorrect": true },
+          { "text": "Khuyên Cừu nên tiết kiệm tiền và chỉ mua những thứ thực sự cần thiết.", "isCorrect": true },
+          { "text": "Cổ vũ Cừu tiếp tục đòi bố mẹ mua đồ đắt tiền để không thua kém bạn bè.", "isCorrect": false },
+          { "text": "Nói với Hùng rằng bạn ấy nên cố gắng thuyết phục bố mẹ mua cho bằng được để không thua kém bạn bè.", "isCorrect": false }
+        ]
+      }
+    ]
+  }
+]
 
-  
+

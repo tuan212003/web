@@ -232,54 +232,68 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff23;
-    padding: 20px 40px;
+    background-color: #5c5be5;
+    padding: 10px 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: visible; /* Cho phép logo tràn ra ngoài */
     height: 70px;
-    }
-    
-    /* Phần bên trái */
-    .left-section {
-    flex: 0 0 20%;
+    width: 100%;
+  }
+  
+  /* Phần bên trái */
+  .left-section {
+    flex: 1;
     text-align: left;
     position: relative; /* Để logo có thể tràn ra ngoài */
-    }
-    
-    .logo {
-      height: 100px; /* Tăng kích thước logo */
-      transition: transform 0.3s ease;
-      position: absolute; /* Để logo tràn ra ngoài */
-      top: -40px; /* Đẩy logo lên trên */
-      left: 10px; /* Đẩy logo sang trái */
-    }  
-    
-    .logo:hover {
+  }
+  
+  .logo {
+    height: 100px; /* Tăng kích thước logo */
+    transition: transform 0.3s ease;
+    position: absolute; /* Để logo tràn ra ngoài */
+    top: -40px; /* Đẩy logo lên trên */
+    left: 10px; /* Đẩy logo sang trái */
+  }
+  
+  .logo:hover {
     transform: scale(1.1);
-    }
-    
-    /* Phần giữa */
-    .middle-section {
+  }
+  
+  /* Phần giữa */
+  .middle-section {
+    flex: 3;
     display: flex;
-    flex: 0 0 80%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    }
-    
-    
-    /* Style chung cho các liên kết trong phần giữa */
-    .middle-section a {
-    color: #811c1c;
+    padding: 0 20px;
+  }
+  
+  /* Phần nhỏ bên trái trong phần giữa */
+  .middle-left {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Phần nhỏ bên phải trong phần giữa */
+  .middle-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Style chung cho các liên kết trong phần giữa */
+  .middle-section a {
+    color: #fdfdfd;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     transition: color 0.3s ease;
     position: relative;
-    margin: 0 40px;
-    }
-    
-    .middle-section a::after {
-    content: '';
+    margin: 0 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .middle-section a::after {
+    content: "";
     position: absolute;
     width: 0;
     height: 2px;
@@ -287,12 +301,12 @@
     bottom: -5px;
     left: 0;
     transition: width 0.3s ease;
-    }
-    
-    .middle-section a:hover {
+  }
+  
+  .middle-section a:hover {
     color: #ffa5ab;
-    }
-    
-    .middle-section a:hover::after {
+  }
+  
+  .middle-section a:hover::after {
     width: 100%;
-    }
+  }

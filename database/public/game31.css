@@ -1,0 +1,77 @@
+.top{
+    overflow: auto; 
+    width: 100vh;
+    height: 35vh;
+    background-color: wheat;
+    border-radius: 20px;
+    border: 5px solid rgb(99, 72, 36)
+}
+
+body{
+    background-image: url("./anh/1.png");
+    background-size: cover;
+}
+
+.mail{
+    position: relative;
+    margin-top: 4%;
+    width: 100vh;
+    background-image: url("./anh/3.png");
+    background-size: contain;
+    height: 54vh;
+}
+#goiy{
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px;
+}
+
+#inputText{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.thu{
+    font-size: 22px;
+    text-align: justify;
+    padding: 0 20px;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.gui{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2%;
+    padding: 10px 25px;
+    border: 3px solid rgb(43, 188, 255);
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.goiy{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 40vh;
+    background-color: rgb(221, 245, 245);
+    border: 3px solid aqua;
+    border-radius: 20px;
+    font-size: 20px;
+   
+}
+.hoanthanh{
+    position: absolute;
+    bottom: 0;
+    margin: 2%;
+    padding: 10px 25px;
+    border: 3px solid rgb(43, 188, 255);
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
